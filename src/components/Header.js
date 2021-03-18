@@ -51,12 +51,12 @@ const Header = () =>{
             <div className="iconsdiv">
                 <img src={Man} width="100px"></img>
                 <div className="iconz">
-                        <img src={Jsp} width="60px"></img>
-                        <img src={Rp} width="60px"></img>
-                        <img src={Np} width="60px"></img>
-                        <img src={Htmlp} width="60px"></img>
-                        <img src={Cssp} width="60px"></img>
-                        <img src={Pp} width="44px"></img>
+                        <img src={Jsp} width="80px"></img>
+                        <img src={Rp} width="80px"></img>
+                        <img src={Np} width="80px"></img>
+                        <img src={Htmlp} width="80px"></img>
+                        <img src={Cssp} width="80px"></img>
+                        <img src={Pp} width="80px"></img>
                  </div>
                  <img src={Man2} width="100px"></img>
 
@@ -73,13 +73,13 @@ const Header = () =>{
                <img src={Pwoli} className="pwoli" width="120px"></img>
                <div className="forrow">
                <div className="sicons">
-                   <img src={Facebook}width="35px"></img>
+                   <img src={Facebook}width="30px"></img>
                    <p>Facebook</p>
-                   <img src={Instagram} width="35px"></img>
+                   <img src={Instagram} width="30px"></img>
                    <p>Instagram</p>
-                   <img src={Twitter}width="35px"></img>
+                   <img src={Twitter}width="30px"></img>
                    <p>Twitter</p>
-                   <img src={Reddit} width="35px"></img>
+                   <img src={Reddit} width="30px"></img>
                    <p>Reddit</p>
                    
                </div>

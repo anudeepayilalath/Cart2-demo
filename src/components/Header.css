@@ -8,7 +8,7 @@
     border-radius:200px;
     margin-top:3em;
     margin-bottom:3em;
-    width:200px;
+    width:215px;
     box-shadow: -30px 30px 20px rgba(0,0,0,0.4);
     /* -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
     box-shadow: 0 0 30px rgb(0, 0, 0); */
@@ -143,7 +143,7 @@ body{
     box-shadow: -30px 30px 20px  rgba(0,0,0,0.4);
     transition: 0.4s;
     cursor: pointer;   
-    width:160px; 
+    width:165px; 
 }
 
 .giffy:hover{
@@ -151,7 +151,7 @@ body{
 }
 
 .mygif{
-    width:200px;
+    width:215px;
     transition:0.4s;
     cursor: pointer;
     
@@ -190,7 +190,7 @@ body{
 }
 
 .iconz img:hover{
-    width:90px;
+    width:100px;
 }
 
 .expert{
@@ -269,9 +269,8 @@ body{
 }
 
 .pwoli{
-    -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
-    box-shadow: 0 0 30px rgb(0, 0, 0);
-    background-color: rgb(80, 15, 133);
+    
+    
     margin-top: 2em;
     transition:0.4s;
     }
