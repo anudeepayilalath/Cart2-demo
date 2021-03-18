@@ -57,9 +57,9 @@ de mis superiores y colegas para<br></br> ser el activo más valioso de mi carre
             
             </div>
 
-            <div className="livewall">
+           
                  <img className="mario" src={Scroll}></img>
-            </div>
+           
            <div className="footer">
                <img src={Pwoli} className="pwoli" width="120px"></img>
                <div className="forrow">

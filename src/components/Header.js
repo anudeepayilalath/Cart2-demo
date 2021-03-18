@@ -65,9 +65,9 @@ const Header = () =>{
             
             </div>
 
-            <div className="livewall">
+            
                  <img className="mario" src={Scroll}></img>
-            </div>
+            
            
            <div className="footer">
                <img src={Pwoli} className="pwoli" width="120px"></img>
