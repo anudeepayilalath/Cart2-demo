@@ -8,7 +8,7 @@
     border-radius:200px;
     margin-top:3em;
     margin-bottom:3em;
-    width:215px;
+    width:210px;
     box-shadow: -30px 30px 20px rgba(0,0,0,0.4);
     /* -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
     box-shadow: 0 0 30px rgb(0, 0, 0); */
@@ -17,7 +17,7 @@
 }
 
 .Mypic:hover{
-    width:250px;
+    width:230px;
     border-radius: 20px;
 }
 
@@ -151,7 +151,7 @@ body{
 }
 
 .mygif{
-    width:215px;
+    width:210px;
     transition:0.4s;
     cursor: pointer;
     
