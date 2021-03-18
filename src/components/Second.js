@@ -42,7 +42,7 @@ de mis superiores y colegas para<br></br> ser el activo más valioso de mi carre
             </div>
             <h1 className="expert">Áreas de Especialización:</h1>
             <div className="iconsdiv">
-                <img src={Man} width="80px"></img>
+                <img src={Man} width="100px"></img>
                 <div className="iconz">
                         <img src={Jsp} width="60px"></img>
                         <img src={Rp} width="60px"></img>
@@ -51,13 +51,15 @@ de mis superiores y colegas para<br></br> ser el activo más valioso de mi carre
                         <img src={Cssp} width="60px"></img>
                         <img src={Pp} width="44px"></img>
                  </div>
-                 <img src={Man2} width="80px"></img>
+                 <img src={Man2} width="100px"></img>
 
             </div>
             
             </div>
 
-            <img className="mario" src={Scroll}></img>
+            <div className="livewall">
+                 <img className="mario" src={Scroll}></img>
+            </div>
            <div className="footer">
                <img src={Pwoli} className="pwoli" width="120px"></img>
                <div className="forrow">
@@ -74,7 +76,7 @@ de mis superiores y colegas para<br></br> ser el activo más valioso de mi carre
                </div>
                <div>
                    <img src={Mypic} className="bottompic"width="100px"></img>
-                   <p className="createdby">Created by Anudeep Ayilalath Puthalath</p>
+                   <p className="createdby">Creado Por Anudeep Ayilalath Puthalath</p>
                </div>
            </div>
            </div>

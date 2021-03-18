@@ -139,6 +139,7 @@ body{
 
 
 .giffy{
+    margin-top:1em;
     box-shadow: -30px 30px 20px  rgba(0,0,0,0.4);
     transition: 0.4s;
     cursor: pointer;   
@@ -217,7 +218,8 @@ body{
     top: 20px;
     right: 100px;
     width:30px;
-    
+    -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
+    box-shadow: 0 0 30px rgb(0, 0, 0);
 }
 
 .iconsdiv{
@@ -269,9 +271,20 @@ body{
 .pwoli{
     -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
     box-shadow: 0 0 30px rgb(0, 0, 0);
-    background-color: rgb(187, 8, 8);
+    background-color: rgb(80, 15, 133);
     margin-top: 2em;
-    
+    transition:0.4s;
+    }
+.pwoli:hover{
+    box-shadow: none;
+    background-color:rgb(27, 31, 88);
+}
+
+.livewall{
+    background-image:url("https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* .credits{
@@ -282,9 +295,9 @@ body{
     font-size: 17px;
 } */
 
-@media only screen and (max-width:1000px){
+@media only screen and (max-width:900px){
     
-    
+   
 
     .giffy{
         width:150px;
@@ -327,6 +340,7 @@ body{
     .iconz{
         display:flex;
         flex-direction:column;
+        margin-bottom:3em;
     }
 
     .expert{
@@ -350,6 +364,12 @@ body{
     .Mypic{
         width:130px;
     }
+
+    .Mypic:hover{
+        width:150px;
+        border-radius: 20px;
+    }
+    
 
     .myname h1{
         font-size:20px;

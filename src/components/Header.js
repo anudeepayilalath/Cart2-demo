@@ -24,6 +24,7 @@ import {Link} from 'react-router-dom';
 const Header = () =>{
     return(
         <div>
+            <div className="section1">
             <div>
                 <Link to="/second"><img className="langchange" src="https://cdn.countryflags.com/thumbs/spain/flag-400.png"></img></Link>
             </div>
@@ -48,7 +49,7 @@ const Header = () =>{
             </div>
             <h1 className="expert">Areas Of Expertise:</h1>
             <div className="iconsdiv">
-                <img src={Man} width="80px"></img>
+                <img src={Man} width="100px"></img>
                 <div className="iconz">
                         <img src={Jsp} width="60px"></img>
                         <img src={Rp} width="60px"></img>
@@ -57,14 +58,17 @@ const Header = () =>{
                         <img src={Cssp} width="60px"></img>
                         <img src={Pp} width="44px"></img>
                  </div>
-                 <img src={Man2} width="80px"></img>
+                 <img src={Man2} width="100px"></img>
 
             </div>
-               
+            </div>
             
             </div>
 
-           <img className="mario" src={Scroll}></img>
+            <div className="livewall">
+                 <img className="mario" src={Scroll}></img>
+            </div>
+           
            <div className="footer">
                <img src={Pwoli} className="pwoli" width="120px"></img>
                <div className="forrow">
