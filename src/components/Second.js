@@ -70,7 +70,7 @@ ser el activo más valioso de mi carrera profesional. "</p>
             </div>
             <img className="mygif" width=" 200px"src={Mygif}></img>
             </div>
-            <h1 className="expert">Áreas de Especialización↓</h1>
+            <h1 className="expert">Áreas de Especialización<span>↓</span></h1>
             <div className="iconsdiv">
                 <img src={Man} width="100px"></img>
                 <div className="iconz">
