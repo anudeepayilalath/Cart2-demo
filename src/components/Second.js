@@ -124,13 +124,13 @@ ser el activo más valioso de mi carrera profesional. "</p>
                <img src={Pwoli} className="pwoli" width="120px"></img>
                <div className="forrow">
                <div className="sicons">
-                   <img src={Facebook}width="30px"></img>
+               <a href="https://www.facebook.com/"> <img src={Facebook}width="30px"></img></a>
                    <p>Facebook</p>
-                   <img src={Instagram} width="30px"></img>
+                  <a href="https://www.instagram.com/"> <img src={Instagram} width="30px"></img></a>
                    <p>Instagram</p>
-                   <img src={Twitter}width="30px"></img>
+                  <a href="https://twitter.com/"> <img src={Twitter}width="30px"></img></a>
                    <p>Twitter</p>
-                   <img src={Reddit} width="30px"></img>
+                   <a href="https://www.reddit.com/"><img src={Reddit} width="30px"></img></a>
                    <p>Reddit</p>
                    
                </div>
