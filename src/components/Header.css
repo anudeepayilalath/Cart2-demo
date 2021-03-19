@@ -356,6 +356,15 @@ body{
 } */
 
 @media only screen and (max-width:900px){
+    .forrow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media only screen and (max-width:750px){
     
    
 
@@ -395,7 +404,9 @@ body{
                 align-items: center;
                 margin-bottom:2em;
             
-        }}
+        }
+    
+    }
 
 @media only screen and (max-width:600px){
     .sicons{
@@ -430,7 +441,7 @@ body{
     }
 
     .Mypic{
-        width:130px;
+        width:150px;
     }
 
     .Mypic:hover{
