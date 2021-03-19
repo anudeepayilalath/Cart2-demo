@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
 
 .Mypic{
     border-radius:200px;
@@ -262,6 +263,11 @@ body{
 .sicons img{
     margin:2em;
     box-shadow: -30px 30px 20px rgba(0,0,0,0.4);
+    transition:0.4s;
+}
+
+.sicons img:hover{
+    width:40px;
 }
 
 .sicons p{
@@ -280,7 +286,66 @@ body{
 }
 
 
+.belowpwoli{
+    background-image: url("../techmongers.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.belowpwoli h1{
+    font-size: 80px;
+    color:rgb(106, 0, 177);
+    text-shadow: 0 1px 0 rgb(255, 255, 255), 0 2px 0 rgb(255, 255, 255), 0 3px 0 rgb(255, 255, 255), 0 4px 0 rgb(255, 255, 255),
+    0 5px 0 rgb(255, 255, 255), 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
+    0 9px 0 transparent, 0 10px 10px rgb(0, 0, 0);
+    font-family: "Luckiest Guy", cursive;
+    transition:0.4s;
+
+}
+
+.belowpwoli h1 span{
+    transition:0.4s;
+    
+}
+
+
+.belowpwoli h1 span:hover{
+    font-size: 90px;
+}
+
+
+.Annu {
+    text-shadow: 0 1px 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 3px 0 rgb(0, 0, 0), 0 4px 0 rgb(0, 0, 0),
+    0 5px 0 rgb(0, 0, 0), 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
+    0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+    font-family: "Luckiest Guy", cursive;
+    transition:0.4s;
+    font-size: 40px;
+    color: rgb(134, 65, 0);
+}
+
+.Annu span{
+    transition: 0.4s;
+}
+
+.Annu span:hover{
+    font-size: 70px;
+    color:rgb(204, 204, 204);
+}
+
+.surname{
+    color:rgb(196, 192, 0);
+}
+
+.expert span{
+    color:rgb(179, 192, 0)
+}
 /* .credits{
     color:rgb(211, 211, 211);
     text-align: right;
@@ -308,7 +373,7 @@ body{
     
 
     .myname{
-        font-size: 20px;
+        font-size: 25px;
         display:flex;
         flex-direction: column;
         align-items: center;
@@ -365,9 +430,20 @@ body{
     }
     
 
-    .myname h1{
-        font-size:20px;
+    .Annu span{
+        font-size:25px;
     }
    
-    
+    .belowpwoli h1{
+        font-size: 60px;
+    }
+
+    .Annu span:hover{
+        font-size: 40px;
+        color:rgb(204, 204, 204);
+    }
+
+    .belowpwoli h1 span:hover{
+        font-size: 70px;
+    }
 }

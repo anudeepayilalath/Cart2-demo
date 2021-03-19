@@ -34,10 +34,40 @@ const Second = () =>{
             
             <div className="title">
                 <img src={Mypic} className="Mypic"></img>
-            <h1 className="myname"> <span className="Annu">ANUDEEP</span> AYILALATH PUTHALATH  <span className="p">
-            <p>"Soy un desarrollador front-end entusiasta y trabajador<br></br>
-comprometidos con el aprendizaje y el desarrollo de soluciones creativas. <br></br>Considero la confianza y la satisfacción
-de mis superiores y colegas para<br></br> ser el activo más valioso de mi carrera profesional. "  </p></span></h1>
+                <div className="myname">
+                <h1 className="Annu">
+                <span className="surname">A</span>
+                <span  className="surname">N</span>
+                <span  className="surname">U</span>
+                <span className="surname">D</span>
+                <span className="surname">E</span>
+                <span className="surname">E</span>
+                
+                <span className="surname">P</span>
+                <span> A</span>
+                <span>Y</span>
+                <span>I</span>
+                <span>L</span>
+                <span>A</span>
+                <span>L</span>
+                <span>A</span>
+                <span>T</span>
+                <span>H</span>
+                <span> P</span>
+                <span>U</span>
+                <span>T</span>
+                <span>H</span>
+                <span>A</span>
+                <span>L</span>
+                <span>A</span>
+                <span>T</span>
+                <span>H</span>
+                </h1>
+                <p className="p">"Soy un desarrollador front-end entusiasta y trabajador
+comprometidos con el aprendizaje<br></br> y el desarrollo de soluciones creativas.
+Considero la confianza y la satisfacción de mis<br></br> superiores y colegas para
+ser el activo más valioso de mi carrera profesional. "</p>
+            </div>
             <img className="mygif" width=" 200px"src={Mygif}></img>
             </div>
             <h1 className="expert">Áreas de Especialización:</h1>
@@ -58,7 +88,38 @@ de mis superiores y colegas para<br></br> ser el activo más valioso de mi carre
             </div>
 
            
-                 <img className="mario" src={Scroll}></img>
+            <div className="belowpwoli">
+
+<h1>
+  
+   <span> N</span>
+   <span>O</span>
+   <span>T</span>
+   <span>H</span>
+   <span>I</span>
+   <span>N</span>
+   <span>G</span>
+   <br></br>
+   <span> T</span>
+   <span>O</span>
+   
+   <span> S</span>
+   <span>E</span>
+   <span>E</span>
+   <span> H</span>
+   <span>E</span>
+   <span>R</span>
+   <span>E</span>
+   <span>!!</span>
+   <br></br>
+   <span>😅</span>
+</h1>
+
+</div>
+
+            <div className="livewall">
+                    <img className="mario" src={Scroll}></img>
+                </div>
            
            <div className="footer">
                <img src={Pwoli} className="pwoli" width="120px"></img>
