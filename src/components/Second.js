@@ -93,24 +93,23 @@ ser el activo más valioso de mi carrera profesional. "</p>
 <h1>
   
    <span> N</span>
-   <span>O</span>
-   <span>T</span>
-   <span>H</span>
-   <span>I</span>
-   <span>N</span>
-   <span>G</span>
+   <span>A</span>
+   <span>D</span>
+   <span>A</span>
+   <span> Q</span>
+   <span>U</span>
+   <span>E</span>
    <br></br>
-   <span> T</span>
-   <span>O</span>
-   
-   <span> S</span>
-   <span>E</span>
-   <span>E</span>
-   <span> H</span>
+   <span> V</span>
    <span>E</span>
    <span>R</span>
-   <span>E</span>
+   
+   <span> A</span>
+   <span>Q</span>
+   <span>U</span>
+   <span>I</span>
    <span>!!</span>
+  
    <br></br>
    <span>😅</span>
 </h1>
