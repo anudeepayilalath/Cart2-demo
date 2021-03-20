@@ -5,6 +5,7 @@ import Facebook from '../facebook.png';
 import Reddit from '../reddit.png';
 import Instagram from '../instagram.png';
 import Twitter from '../twitter.png';
+import EspFlag from '../spain.png';
 
 import Mypic from '../Untitled design (1).png';
 import Giffy from '../yy3.gif';
@@ -19,16 +20,21 @@ import Np from '../np.webp';
 import Rp from '../rp.webp';
 import Pp from '../pp.png';
 import Cssp from '../cssp.gif';
+import Logo from '../logo.gif'
 import {Link} from 'react-router-dom';
 
 const Header = () =>{
     return(
         <div>
-            
-            <div className="section1">
-            <div>
-                <Link to="/second"><img className="langchange" src="https://cdn.countryflags.com/thumbs/spain/flag-400.png"></img></Link>
+            <div className="navbar">
+                <li className="navys">Home</li>
+                <li className="navys">About</li>
+                <img src={Logo} className="logo" width="30px"></img>
+                <li className="navys">Projects</li>
+                <Link to="/second"><img className="langchange" src={EspFlag}></img></Link>
             </div>
+            <div className="section1">
+            
             <div className="imgdiv">
             
                 <img className="giffy" src={Giffy}  ></img>

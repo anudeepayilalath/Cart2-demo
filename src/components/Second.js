@@ -19,15 +19,23 @@ import Rp from '../rp.webp';
 import Pp from '../pp.png';
 import Cssp from '../cssp.gif';
 import Usflag from '../usflag.png';
+import Logo from '../logo.gif';
 import {Link} from 'react-router-dom';
 
 
 const Second = () =>{
     return(
         <div>
-            <div>
+
+            <div className="navbar">
+                <li>Inicio</li>
+                <li>SobreMí</li>
+                <img src={Logo} className="logo" width="30px"></img>
+                <li>Proyectos</li>
                 <Link to="/"><img className="langchange" src={Usflag}></img></Link>
             </div>
+
+            
             <div className="imgdiv">
             
                 <img className="giffy" src={Giffy}  ></img>

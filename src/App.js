@@ -17,7 +17,7 @@ function App() {
         <Route path="/" exact>
           <Header/>
         </Route>
-        <Route path="/second" exact>
+        <Route path="/second" >
             <Second/>
         </Route>
       

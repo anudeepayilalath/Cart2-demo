@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mali:wght@200&family=Yusei+Magic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
 
@@ -215,12 +215,13 @@ body{
 }
 
 .langchange{
-    position: absolute;
-    top: 20px;
-    right: 100px;
-    width:30px;
-    -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
-    box-shadow: 0 0 30px rgb(0, 0, 0);
+    width:30px; 
+    border: 1px solid black;
+    transition:0.4s;
+}
+
+.langchange:hover{
+    border:1.6px solid black
 }
 
 .iconsdiv{
@@ -347,6 +348,55 @@ body{
 .expert span{
     color:rgb(179, 192, 0)
 }
+
+.navbar{
+   
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+    padding:0.3em;
+    margin-top:1.5em;
+    margin-bottom:1.5em;
+    margin-left:4em;
+    margin-right:4em;
+    background-color:rgb(27, 31, 88);
+    transition:0.4s;
+    
+    -webkit-box-shadow: 0 0 10px rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.navbar:hover{
+    background-color: rgb(136, 29, 61);
+    border-radius: 8px;
+    -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+}
+
+.navbar li{
+  transition:0.4s;
+  color: rgb(212, 212, 212);
+  padding:0.2em;
+  font-family: 'Syne Mono', monospace;
+  
+  
+}
+
+.navbar li:hover{
+    background-color: rgb(27, 31, 88);
+    
+}
+
+.logo{
+    transition:0.2s;
+}
+
+.logo:hover{
+    width:80px;
+}
+
+
 /* .credits{
     color:rgb(211, 211, 211);
     text-align: right;
@@ -409,6 +459,9 @@ body{
     }
 
 @media only screen and (max-width:600px){
+    .navbar{
+        display:none;
+    }
     .sicons{
         display: flex;
         flex-direction: column;
@@ -436,9 +489,7 @@ body{
         align-items: center;
     }
 
-    .langchange{
-        display: none;
-    }
+    
 
     .Mypic{
         width:150px;
