@@ -7,7 +7,7 @@ import Instagram from '../instagram.png';
 import Twitter from '../twitter.png';
 import EspFlag from '../spain.png';
 
-import SS from '../hori1.png';
+import SS from '../hori1.jpg';
 import SS2 from '../hori2.jpg';
 
 import Mypic from '../Untitled design (1).png';
@@ -25,6 +25,7 @@ import Pp from '../pp.png';
 import Cssp from '../cssp.gif';
 import Logo from '../logo.gif';
 import Verti from '../verti.jpg';
+import Req from '../req.png';
 import {Link} from 'react-router-dom';
 
 const Header = () =>{
@@ -154,6 +155,15 @@ const Header = () =>{
 
                 <div className="projects">
                     <h1>My Projects</h1>
+                    
+
+                    <div className="pro2">
+                        <div>
+                         <a href="https://anudeepayilalath.github.io/TV-Series-Project/"> <img className="three" src={Verti}></img></a>
+                          <h3>TV Series</h3>
+                        </div>
+                                   
+                    </div>
                     <div className="pro1">
                         <div>
                       <a href="https://anudeepayilalath.github.io/Weather-Forecast-using-API/"><img className="one"src={SS}width="10%" height="25%"></img></a> 
@@ -162,16 +172,17 @@ const Header = () =>{
                        
                         <div>
                       <a href="https://psicologxs-de-calle.netlify.app/"> <img className="two"src={SS2} width="10%" height="25%"></img></a> 
-                        <h3>NGO</h3>
+                        <h3>NGO (Demo)</h3>
                         </div>
                     </div>
-                    <div className="pro2">
+
+                   
+
+                    <div className="proreq">
                         <div>
-                         <a href="https://anudeepayilalath.github.io/TV-Series-Project/"> <img className="three" src={Verti}></img></a>
-                          <h3>TV Series</h3>
-                        </div>
-                      
-                        
+                         <a href="https://anudeepayilalath.github.io/TV-Series-Project/"> <img className="req" src={Req}></img></a>
+                          <h3>Holiday Request Platform</h3>
+                        </div> 
                     </div>
                 </div>
 

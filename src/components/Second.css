@@ -393,8 +393,8 @@ li{
 }
 
 .navbar li:hover{
-    border:1px solid rgb(0, 0, 0);
-    border-radius: 2px;
+    border:1px solid rgb(202, 198, 198);
+    border-radius: 2.7px;
     font-size:16.5px;
     background-color: rgb(36, 36, 36);
 }
@@ -415,9 +415,12 @@ li{
     align-items: center;
     
     }
+    .projects:hover{
+        border-radius:0% 100% 0% 100% / 0% 100% 74% 100% ;
+    }
 
     .projects h1{
-        background-color: rgb(34, 40, 121);
+        background-color:rgb(136, 29, 61);
         border-radius: 5px;
         font-size:25px;
         color:rgb(236, 236, 236);
@@ -434,8 +437,42 @@ li{
 
 
     .projects h1:hover{
-        background-color:rgb(136, 29, 61);
+        background-color: rgb(53, 53, 53);
        
+    }
+
+
+    .proreq{
+        display: flex;
+        flex-direction: row;
+        -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
+        box-shadow: 0 0 30px rgb(0, 0, 0);
+        transition:0.4s;
+    }
+
+    .proreq img{
+        width:520px;
+        height:220px;
+        transition:0.4s;
+    }
+
+    .proreq div{
+        -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
+        box-shadow: 0 0 30px rgb(0, 0, 0);
+        padding:0.3em;
+    }
+
+    .proreq h3{
+        cursor:context-menu;
+        border-radius: 5px;
+        font-size:20px;
+        color:rgb(255, 255, 255);
+      
+        margin:0.4em;
+        
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 200;
+        transition:0.4s;
     }
 
 .pro1{
@@ -493,7 +530,14 @@ li{
     -ms-transform: scale(0.9); /* IE 9 */
     -webkit-transform: scale(0.9); /* Safari 3-8 */
     transform: scale(0.9); 
-   
+    
+}
+
+.req:hover{
+    -ms-transform: scale(0.9); /* IE 9 */
+    -webkit-transform: scale(0.9); /* Safari 3-8 */
+    transform: scale(0.9);
+    
 }
 
 .pro1 h3{
@@ -683,6 +727,11 @@ li{
         width:218px;
         height:90px;
     }
+
+    .proreq img{
+        width:218px;
+        height:90px;
+    }
 }
 
 @media only screen and (max-width:335px){
@@ -697,6 +746,11 @@ li{
     }
     
     .pro2 img{
+        width:90px;
+        height:50px;
+    }
+
+    .proreq img{
         width:90px;
         height:50px;
     }

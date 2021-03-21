@@ -20,9 +20,10 @@ import Pp from '../pp.png';
 import Cssp from '../cssp.gif';
 import UsFlag from '../usflag.png';
 import Logo from '../logo.gif';
-import SS from '../hori1.png';
+import SS from '../hori1.jpg';
 import SS2 from '../hori2.jpg';
-import Verti from '../verti.jpg'
+import Verti from '../verti.jpg';
+import Req from '../req.png';
 import {Link} from 'react-router-dom';
 
 
@@ -143,6 +144,13 @@ ser el activo más valioso de mi carrera profesional. "</p>
 
 <div className="projects">
                     <h1>Mis Proyectos</h1>
+                    <div className="pro2">
+                        <div>
+                         <a href="https://anudeepayilalath.github.io/TV-Series-Project/"> <img className="three" src={Verti}></img></a>
+                          <h3>Series de Televisión</h3>
+                        </div>
+    
+                    </div>
                     <div className="pro1">
                         <div>
                       <a href="https://anudeepayilalath.github.io/Weather-Forecast-using-API/"><img className="one"src={SS}width="10%" height="25%"></img></a> 
@@ -151,16 +159,16 @@ ser el activo más valioso de mi carrera profesional. "</p>
                        
                         <div>
                       <a href="https://psicologxs-de-calle.netlify.app/"> <img className="two"src={SS2} width="10%" height="25%"></img></a> 
-                        <h3>ONG</h3>
+                        <h3>ONG (Demo)</h3>
                         </div>
                     </div>
-                    <div className="pro2">
+                    
+
+                    <div className="proreq">
                         <div>
-                         <a href="https://anudeepayilalath.github.io/TV-Series-Project/"> <img className="three" src={Verti}></img></a>
-                          <h3>Series de Televisión</h3>
-                        </div>
-                      
-                        
+                         <a href="https://anudeepayilalath.github.io/TV-Series-Project/"> <img className="req" src={Req}></img></a>
+                          <h3>Para Solicitar Vacaciones</h3>
+                        </div> 
                     </div>
                 </div>
 

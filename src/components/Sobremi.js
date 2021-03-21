@@ -7,7 +7,7 @@ import Instagram from '../instagram.png';
 import Twitter from '../twitter.png';
 import UsFlag from '../usflag.png';
 
-import SS from '../hori1.png';
+import SS from '../hori1.jpg';
 import SS2 from '../hori2.jpg';
 
 import Mypic from '../Untitled design (1).png';
