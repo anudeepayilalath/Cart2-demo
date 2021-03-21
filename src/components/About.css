@@ -397,6 +397,7 @@ body{
 
 .navys{
     text-decoration:none;
+    cursor: pointer;
 }
 
 .navbar li:hover{
@@ -424,10 +425,33 @@ body{
 .about{
     text-decoration: none;
     width:50%;
+   
 }
 
 
 
+.droppy {
+    display: none;
+    position: absolute;
+   
+    min-width: 50px;
+   
+    padding: 5px 8px;
+    font-size: 14px;
+    z-index: 1;
+    color:rgb(221, 221, 221);
+    font-family: cursive;
+    transition:0.4s;
+    margin: 1em;
+    text-shadow: 2px 2px 2px #000000;
+  }
+
+  .dropdown:active .droppy {
+    display: block;
+    cursor:context-menu;
+
+  }
+  
 /* .credits{
     color:rgb(211, 211, 211);
     text-align: right;

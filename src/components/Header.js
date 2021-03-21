@@ -31,10 +31,24 @@ const Header = () =>{
     return(
         <div>
             <div className="navbar">
+
+                <div className="dropdown">
                 <li className="navys">Home</li>
+                <div className="droppy">
+                    <p>You are already here !!</p>
+                </div>
+                </div>
+                
               <Link to="/about"> <li className="navys">About</li></Link> 
                <Link to="/"> <img src={Logo} className="logo" width="30px"></img></Link>
-               <Link to="/" className="linked"> <li className="navys">Projects</li></Link>
+              
+              <div className="dropdown">
+              <Link to="/" className="linked"> <li className="navys">Projects</li></Link>
+              <div className="droppy">
+                  <p>Scroll Down ↓ Don't be lazy </p>
+              </div>
+              </div>
+              
                 <Link to="/second"><img className="langchange" src={EspFlag}></img></Link>
             </div>
             <div className="section1">

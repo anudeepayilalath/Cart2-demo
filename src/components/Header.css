@@ -386,7 +386,8 @@ li{
   color: rgb(212, 212, 212);
   padding:0.2em;
   font-family: 'Syne Mono', monospace;
-  text-decoration: none;
+  text-decoration:  none;
+  
   
   
 }
@@ -525,6 +526,28 @@ li{
 .linked{
     text-decoration: none;
 }
+
+.droppy {
+    display: none;
+    position: absolute;
+   
+    min-width: 50px;
+   
+    padding: 5px 8px;
+    font-size: 14px;
+    z-index: 1;
+    color:rgb(221, 221, 221);
+    font-family: cursive;
+    transition:0.4s;
+    margin: 1em;
+    text-shadow: 2px 2px 2px #000000;
+  }
+
+  .dropdown:active .droppy {
+    display: block;
+    cursor:context-menu;
+
+  }
 
 
 /* .credits{

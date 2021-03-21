@@ -33,9 +33,22 @@ const About = () =>{
         <div>
             <div className="navbar">
              <Link to="/">  <li className="navys">Home</li></Link> 
+              <div className="dropdown">
                 <li className="navys">About</li>
+                <div className="droppy">
+                    <p>You are already here !!</p>
+                </div>    
+              </div>  
                 <Link to="/"> <img src={Logo} className="logo" width="30px"></img></Link>
-               <Link to="/"><li className="navys">Projects</li></Link> 
+
+
+                <div className="dropdown">
+                <li className="navys">Projects</li>
+                <div className="droppy">
+                    <p>Go To Home !!</p>
+                </div>
+                </div>
+               
                 <Link to="/sobremi"><img className="langchange" src={EspFlag}></img></Link>
             </div>
             

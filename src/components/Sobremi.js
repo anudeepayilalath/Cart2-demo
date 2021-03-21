@@ -33,9 +33,21 @@ const Sobremi = () =>{
         <div>
             <div className="navbar">
              <Link to="/second">  <li className="navys">Inicia</li></Link> 
-                <li className="navys">SobreMi</li>
+              <div className="dropdown">
+              <li className="navys">SobreMi</li>
+              <div className="droppy">
+                  <p>Ya estas aqui !!</p>
+              </div>
+              </div>
+               
                 <Link to="/second"> <img src={Logo} className="logo" width="30px"></img></Link>
-               <Link to="/"><li className="navys">Proyectos</li></Link> 
+               <div className="dropdown">
+               <li className="navys">Proyectos</li> 
+               <div className="droppy">
+                   <p>Ir a Inicio !!</p>
+               </div>
+               </div>
+              
                 <Link to="/about"><img className="langchange" src={UsFlag}></img></Link>
             </div>
             

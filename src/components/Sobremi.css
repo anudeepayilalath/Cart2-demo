@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@200&family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
+
+.Mypic{
+    border-radius:200px;
+    margin-top:3em;
+    margin-bottom:3em;
+    width:210px;
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.4);
+    /* -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
+    box-shadow: 0 0 30px rgb(0, 0, 0); */
+    transition: 0.4s;
+    cursor:pointer;
+}
+
+.Mypic:hover{
+    width:230px;
+    border-radius: 20px;
+}
+
+.bottompic{
+    -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    margin-bottom: 1em;
+    border-radius: 200px;
+    transition: 0.4s;
+}
+
+.bottompic:hover{
+    width:120px;
+   
+}
+
+/* .fade {
+    position:relative;
+    height:281px;
+    width:450px;
+    margin:0 auto;
+  }
+  
+  .fade img {
+    position:absolute;
+    right:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    border-radius:200px;
+    transition:0.4s;
+  }
+  
+  
+
+  .fade img.top:hover {
+    opacity:0;
+  } */
+
+
+
+
+
+body{
+    /* background:url("../wp5952062-youtube-thumbnail-wallpapers.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100%; */
+   
+   background-color:#30258d;
+
+}
+
+.secdiv{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgdiv{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.createdby{
+    text-shadow: 2px 2px 2px #000000;
+    font-size:12px;
+}
+
+.myname{
+    color: rgb(80, 207, 165);
+    text-shadow: 2px 2px 2px #000000;
+    margin:1em;
+    
+    transition: 0.4s;
+    font-weight:900;
+    font-family: 'Julius Sans One', sans-serif;
+    cursor: pointer;
+    
+}
+
+
+.myname:hover{
+    color:rgb(0, 163, 109) ;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.titulo{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    padding-left:2.5em;
+    padding-right:2.5em;
+    
+    
+    
+}
+
+
+
+
+
+.p{
+    color:rgb(230, 230, 230);
+    font-size:15px;
+    font-family: 'Mali', cursive;
+    font-style: italic;
+    padding:1em;
+    font-weight: bold;
+   
+}
+
+.p2{
+    color:rgb(211, 211, 211);
+    font-size:15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height:2rem;
+    font-family: 'Syne Mono', monospace;
+    padding:1em;
+    font-weight: 600;
+}
+
+
+.giffy{
+    margin-top:1em;
+    box-shadow: -30px 30px 20px  rgba(0,0,0,0.4);
+    transition: 0.4s;
+    cursor: pointer;   
+    width:165px; 
+    
+}
+
+.giffy:hover{
+    box-shadow:none;
+}
+
+.mygif{
+    width:210px;
+    transition:0.4s;
+    cursor: pointer;
+    
+}
+
+.mygif:hover{
+    width:220px;
+}
+
+
+
+.bottomdiv{
+    background-color: rgb(109, 0, 211);
+    box-shadow: -30px -30px 20px  rgba(0,0,0,0.4);
+    
+}
+
+
+.iconz{
+    display:flex;
+    margin-right:10px;
+    margin-left: 10px;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1.4em;
+    background-color: rgb(100, 0, 139);
+    /* box-shadow: -30px 30px 20px  rgba(0,0,0,0.4); */
+    border-radius: 80%;
+    -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+
+}
+
+.iconz img{
+    transition: 0.4s;
+}
+
+.iconz img:hover{
+    width:100px;
+}
+
+.expert{
+    font-family: 'Londrina Solid', cursive;
+    text-shadow: 2px 2px 2px #000000;
+    color:rgb(1, 168, 132);
+    font-weight: 200;
+    font-size: 30px;
+    transition:0.4s;
+    cursor:pointer;
+    
+}
+
+.expert:hover{
+    color:rgb(255, 255, 255)
+}
+
+
+.Annu{
+    color:white;
+}
+
+.langchange{
+    width:30px; 
+    border: 1px solid black;
+    transition:0.4s;
+}
+
+.langchange:hover{
+    border:1.6px solid black
+}
+
+.iconsdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+.mario{
+    width:50%;
+    margin:5em;
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.4);
+   
+}
+
+.footer{
+    background-color:rgb(27, 31, 88);
+    color:white;
+    width: 100%;
+   
+}
+
+.forrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:3em;
+}
+
+
+.sicons{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: space-around;
+}
+
+.sicons img{
+    margin:2em;
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.4);
+    transition:0.4s;
+}
+
+.sicons img:hover{
+    width:40px;
+}
+
+.sicons p{
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.pwoli{
+    
+    
+    margin-top: 2em;
+    transition:0.4s;
+    }
+.pwoli:hover{
+    box-shadow: none;
+    background-color:rgb(27, 31, 88);
+}
+
+
+.belowpwoli{
+    background-image: url("../techmongers.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.belowpwoli h1{
+    font-size: 80px;
+    color:rgb(106, 0, 177);
+    text-shadow: 0 1px 0 rgb(255, 255, 255), 0 2px 0 rgb(255, 255, 255), 0 3px 0 rgb(255, 255, 255), 0 4px 0 rgb(255, 255, 255),
+    0 5px 0 rgb(255, 255, 255), 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
+    0 9px 0 transparent, 0 10px 10px rgb(0, 0, 0);
+    font-family: "Luckiest Guy", cursive;
+    transition:0.4s;
+
+}
+
+.belowpwoli h1 span{
+    transition:0.4s;
+    
+}
+
+
+.belowpwoli h1 span:hover{
+    font-size: 90px;
+}
+
+
+.Annu {
+    text-shadow: 0 1px 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 3px 0 rgb(0, 0, 0), 0 4px 0 rgb(0, 0, 0),
+    0 5px 0 rgb(0, 0, 0), 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
+    0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+    font-family: "Luckiest Guy", cursive;
+    transition:0.4s;
+    font-size: 40px;
+    color: rgb(134, 65, 0);
+}
+
+.Annu span{
+    transition: 0.4s;
+}
+
+.Annu span:hover{
+    font-size: 70px;
+    color:rgb(204, 204, 204);
+}
+
+.surname{
+    color:rgb(196, 192, 0);
+}
+
+.expert span{
+    color:rgb(179, 192, 0)
+}
+
+.navbar{
+   
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+    padding:0.3em;
+    margin-top:1.5em;
+    margin-bottom:1.5em;
+    margin-left:4em;
+    margin-right:4em;
+    background-color:rgb(27, 31, 88);
+    transition:0.4s;
+    
+    -webkit-box-shadow: 0 0 10px rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.navbar:hover{
+    background-color: rgb(136, 29, 61);
+    border-radius: 8px;
+    -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+}
+
+.navbar li{
+  transition:0.4s;
+  color: rgb(212, 212, 212);
+  padding:0.2em;
+  font-family: 'Syne Mono', monospace;
+  text-decoration: none;
+  
+}
+
+.navys{
+    text-decoration:none;
+    cursor: pointer;
+}
+
+.navbar li:hover{
+    background-color: rgb(27, 31, 88);
+    
+}
+
+.logo{
+    transition:0.2s;
+}
+
+.logo:hover{
+    width:80px;
+}
+
+.about p{
+    color:rgb(230, 230, 230);
+    font-size:15px;
+    font-family: 'Mali', cursive;
+    font-style: italic;
+    
+    padding:1em;
+}
+
+.about{
+    text-decoration: none;
+    width:50%;
+   
+}
+
+
+
+.droppy {
+    display: none;
+    position: absolute;
+   
+    min-width: 50px;
+   
+    padding: 5px 8px;
+    font-size: 14px;
+    z-index: 1;
+    color:rgb(221, 221, 221);
+    font-family: cursive;
+    transition:0.4s;
+    margin: 1em;
+    text-shadow: 2px 2px 2px #000000;
+  }
+
+  .dropdown:active .droppy {
+    display: block;
+    cursor:context-menu;
+
+  }
+  
+/* .credits{
+    color:rgb(211, 211, 211);
+    text-align: right;
+    margin-top: 2em;
+    text-shadow: 2px 2px 2px #000000;
+    font-size: 17px;
+} */
+
+@media only screen and (max-width:900px){
+    .forrow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media only screen and (max-width:750px){
+    
+   
+
+    .giffy{
+        width:150px;
+    }
+
+    .title{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;    
+    }
+
+    
+    
+
+    .myname{
+        font-size: 25px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .forrow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    @media only screen and (max-width:760px){
+        .sicons{
+    
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom:2em;
+            
+        }
+    
+    }
+
+@media only screen and (max-width:600px){
+    .navbar{
+        display:none;
+    }
+    .sicons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom:2em;
+    }
+}
+    .iconz{
+        display:flex;
+        flex-direction:column;
+        margin-bottom:3em;
+    }
+
+    .expert{
+        font-size: 30px;
+    }
+
+    .mygif{
+        width:100px;
+    }
+
+    .forrow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+
+    .Mypic{
+        width:150px;
+    }
+
+    .Mypic:hover{
+        width:150px;
+        border-radius: 20px;
+    }
+    
+
+    .Annu span{
+        font-size:25px;
+    }
+   
+    .belowpwoli h1{
+        font-size: 60px;
+    }
+
+    .Annu span:hover{
+        font-size: 40px;
+        color:rgb(204, 204, 204);
+    }
+
+    .belowpwoli h1 span:hover{
+        font-size: 70px;
+    }
+
+    .pro1 img{
+       
+        width:100px;
+        height:110px;
+    }
+    
+    .pro2 img{
+        width:218px;
+        height:90px;
+    }
+}
+
+@media only screen and (max-width:335px){
+    .projects h1{
+        font-size: 10px;
+        
+    }
+    .pro1 img{
+       
+        width:60px;
+        height:70px;
+    }
+    
+    .pro2 img{
+        width:90px;
+        height:50px;
+    }
+
+    .pro1{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+}

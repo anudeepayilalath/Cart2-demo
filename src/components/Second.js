@@ -31,10 +31,22 @@ const Second = () =>{
         <div>
 
             <div className="navbar">
-                <li>Inicio</li>
-               <Link to="/sobremi"> <li>SobreMí</li></Link>
+               <div className="dropdown">
+               <li className="navys">Inicio</li>
+               <div className="droppy">
+                   <p>Ya estas aqui !!</p>
+               </div>
+               </div>
+                
+               <Link to="/sobremi"> <li className="navys">SobreMí</li></Link>
                 <img src={Logo} className="logo" width="30px"></img>
-                <li>Proyectos</li>
+               <div className="dropdown">
+               <li className="navys">Proyectos</li>
+               <div className="droppy">
+                   <p>Desplazarse hacia abajo ↓ No seas perezoso</p>
+               </div>
+               </div>
+              
                 <Link to="/"><img className="langchange" src={UsFlag}></img></Link>
             </div>
 
