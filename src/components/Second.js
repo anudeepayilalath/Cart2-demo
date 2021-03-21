@@ -18,8 +18,11 @@ import Np from '../np.webp';
 import Rp from '../rp.webp';
 import Pp from '../pp.png';
 import Cssp from '../cssp.gif';
-import Usflag from '../usflag.png';
+import UsFlag from '../usflag.png';
 import Logo from '../logo.gif';
+import SS from '../hori1.png';
+import SS2 from '../hori2.jpg';
+import Verti from '../verti.jpg'
 import {Link} from 'react-router-dom';
 
 
@@ -29,10 +32,10 @@ const Second = () =>{
 
             <div className="navbar">
                 <li>Inicio</li>
-                <li>SobreMí</li>
+               <Link to="/sobremi"> <li>SobreMí</li></Link>
                 <img src={Logo} className="logo" width="30px"></img>
                 <li>Proyectos</li>
-                <Link to="/"><img className="langchange" src={Usflag}></img></Link>
+                <Link to="/"><img className="langchange" src={UsFlag}></img></Link>
             </div>
 
             
@@ -123,6 +126,32 @@ ser el activo más valioso de mi carrera profesional. "</p>
 </h1>
 
 </div>
+
+
+
+<div className="projects">
+                    <h1>My Projects</h1>
+                    <div className="pro1">
+                        <div>
+                      <a href="https://anudeepayilalath.github.io/Weather-Forecast-using-API/"><img className="one"src={SS}width="10%" height="25%"></img></a> 
+                        <h3>Weather API</h3>
+                            </div>
+                       
+                        <div>
+                      <a > <img className="two"src={SS2} width="10%" height="25%"></img></a> 
+                        <h3>Open Web Development</h3>
+                        </div>
+                    </div>
+                    <div className="pro2">
+                        <div>
+                         <a href="https://anudeepayilalath.github.io/TV-Series-Project/"> <img className="three" src={Verti}></img></a>
+                          <h3>TV Series</h3>
+                        </div>
+                      
+                        
+                    </div>
+                </div>
+
 
             <div className="livewall">
                     <img className="mario" src={Scroll}></img>

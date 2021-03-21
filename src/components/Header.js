@@ -7,6 +7,9 @@ import Instagram from '../instagram.png';
 import Twitter from '../twitter.png';
 import EspFlag from '../spain.png';
 
+import SS from '../hori1.png';
+import SS2 from '../hori2.jpg';
+
 import Mypic from '../Untitled design (1).png';
 import Giffy from '../yy3.gif';
 import Mygif from '../source.gif';
@@ -20,7 +23,8 @@ import Np from '../np.webp';
 import Rp from '../rp.webp';
 import Pp from '../pp.png';
 import Cssp from '../cssp.gif';
-import Logo from '../logo.gif'
+import Logo from '../logo.gif';
+import Verti from '../verti.jpg';
 import {Link} from 'react-router-dom';
 
 const Header = () =>{
@@ -28,9 +32,9 @@ const Header = () =>{
         <div>
             <div className="navbar">
                 <li className="navys">Home</li>
-                <li className="navys">About</li>
-                <img src={Logo} className="logo" width="30px"></img>
-                <li className="navys">Projects</li>
+              <Link to="/about"> <li className="navys">About</li></Link> 
+               <Link to="/"> <img src={Logo} className="logo" width="30px"></img></Link>
+               <Link to="/" className="linked"> <li className="navys">Projects</li></Link>
                 <Link to="/second"><img className="langchange" src={EspFlag}></img></Link>
             </div>
             <div className="section1">
@@ -131,7 +135,32 @@ const Header = () =>{
                 <span>😅</span>
             </h1>
 
-</div>
+        </div>
+
+
+                <div className="projects">
+                    <h1>My Projects</h1>
+                    <div className="pro1">
+                        <div>
+                      <a href="https://anudeepayilalath.github.io/Weather-Forecast-using-API/"><img className="one"src={SS}width="10%" height="25%"></img></a> 
+                        <h3>Weather API</h3>
+                            </div>
+                       
+                        <div>
+                      <a > <img className="two"src={SS2} width="10%" height="25%"></img></a> 
+                        <h3>Open Web Development</h3>
+                        </div>
+                    </div>
+                    <div className="pro2">
+                        <div>
+                         <a href="https://anudeepayilalath.github.io/TV-Series-Project/"> <img className="three" src={Verti}></img></a>
+                          <h3>TV Series</h3>
+                        </div>
+                      
+                        
+                    </div>
+                </div>
+
 
                 <div className="livewall">
                     <img className="mario" src={Scroll}></img>
