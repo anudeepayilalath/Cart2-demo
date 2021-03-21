@@ -413,6 +413,9 @@ li{
     align-items: center;
     
     }
+    .projects:hover{
+        border-radius:0% 100% 0% 100% / 0% 100% 74% 100% ;
+    }
 
     .projects h1{
         background-color: rgb(34, 40, 121);
@@ -491,7 +494,7 @@ li{
     -ms-transform: scale(0.9); /* IE 9 */
     -webkit-transform: scale(0.9); /* Safari 3-8 */
     transform: scale(0.9); 
-   
+    
 }
 
 .pro1 h3{
@@ -537,7 +540,7 @@ li{
     font-size: 14px;
     z-index: 1;
     color:rgb(221, 221, 221);
-    font-family: cursive;
+    font-family: monospace;
     transition:0.4s;
     margin: 1em;
     text-shadow: 2px 2px 2px #000000;
