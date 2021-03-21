@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
 
+
 .Mypic{
     border-radius:200px;
     margin-top:3em;
@@ -145,6 +146,7 @@ body{
     transition: 0.4s;
     cursor: pointer;   
     width:165px; 
+    
 }
 
 .giffy:hover{
@@ -298,6 +300,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor:context-menu;
 }
 
 .belowpwoli h1{
@@ -349,6 +352,10 @@ body{
     color:rgb(179, 192, 0)
 }
 
+
+li{
+    text-decoration: none;
+}
 .navbar{
    
     display:flex;
@@ -363,7 +370,7 @@ body{
     margin-right:4em;
     background-color:rgb(27, 31, 88);
     transition:0.4s;
-    
+   text-decoration: none;
     -webkit-box-shadow: 0 0 10px rgb(0, 0, 0);
     box-shadow: 0 0 10px rgb(0, 0, 0);
 }
@@ -379,6 +386,7 @@ body{
   color: rgb(212, 212, 212);
   padding:0.2em;
   font-family: 'Syne Mono', monospace;
+  text-decoration: none;
   
   
 }
@@ -394,6 +402,128 @@ body{
 
 .logo:hover{
     width:80px;
+}
+
+.projects{
+    
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+    .projects h1{
+        background-color: rgb(34, 40, 121);
+        border-radius: 5px;
+        font-size:25px;
+        color:rgb(236, 236, 236);
+        padding:0.2em;
+        padding-left:0.5em;
+        padding-right:0.5em;
+        margin:2em;
+        cursor:context-menu;
+        font-family: 'Syne Mono', monospace;
+        font-weight: 200;
+        transition:0.4s;
+        border:2px solid black;
+    }
+
+
+    .projects h1:hover{
+        background-color:rgb(136, 29, 61);
+       
+    }
+
+.pro1{
+    display: flex;
+    flex-direction: row;
+    -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    transition:0.4s;
+}
+
+.pro1 img{
+    
+    margin-left:0.5em;
+    margin-right:0.5em;
+    width:250px;
+    height:250px;
+    transition:0.4s;
+}
+
+.pro2 img{
+    width:520px;
+    height:220px;
+    transition:0.4s;
+  
+}
+
+.pro2 div{
+    -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    padding:0.3em;
+}
+
+.one:hover{
+    
+
+    -ms-transform: scale(0.8); /* IE 9 */
+    -webkit-transform: scale(0.8); /* Safari 3-8 */
+    transform: scale(0.8); 
+    border-radius: 300px;
+    
+}
+
+.two:hover{
+    
+
+    -ms-transform: scale(0.9); /* IE 9 */
+    -webkit-transform: scale(0.9); /* Safari 3-8 */
+    transform: scale(0.9); 
+    border-radius: 300px;
+}
+
+.three:hover{
+    
+    
+    -ms-transform: scale(0.9); /* IE 9 */
+    -webkit-transform: scale(0.9); /* Safari 3-8 */
+    transform: scale(0.9); 
+   
+}
+
+.pro1 h3{
+   
+    border-radius: 5px;
+    font-size:20px;
+    color:rgb(255, 255, 255);
+    padding-top:0.2em;
+    padding-bottom:0.2em;
+    margin:0.4em;
+    cursor:context-menu;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-weight: 200;
+    transition:0.4s;
+    
+}
+
+.pro2 h3{
+    cursor:context-menu;
+    border-radius: 5px;
+    font-size:20px;
+    color:rgb(255, 255, 255);
+  
+    margin:0.4em;
+    
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    transition:0.4s;
+    
+}
+
+.linked{
+    text-decoration: none;
 }
 
 
@@ -516,5 +646,40 @@ body{
 
     .belowpwoli h1 span:hover{
         font-size: 70px;
+    }
+
+    .pro1 img{
+       
+        width:100px;
+        height:110px;
+    }
+    
+    .pro2 img{
+        width:218px;
+        height:90px;
+    }
+}
+
+@media only screen and (max-width:335px){
+    .projects h1{
+        font-size: 10px;
+        
+    }
+    .pro1 img{
+       
+        width:60px;
+        height:70px;
+    }
+    
+    .pro2 img{
+        width:90px;
+        height:50px;
+    }
+
+    .pro1{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
     }
 }

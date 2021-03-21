@@ -25,6 +25,7 @@ import Pp from '../pp.png';
 import Cssp from '../cssp.gif';
 import Logo from '../logo.gif'
 import Verti from '../verti.jpg'
+import Liney from '../liney.gif';
 import {Link} from 'react-router-dom';
 
 const Sobremi = () =>{
@@ -35,7 +36,7 @@ const Sobremi = () =>{
                 <li className="navys">SobreMi</li>
                 <Link to="/second"> <img src={Logo} className="logo" width="30px"></img></Link>
                <Link to="/"><li className="navys">Proyectos</li></Link> 
-                <Link to="/"><img className="langchange" src={UsFlag}></img></Link>
+                <Link to="/about"><img className="langchange" src={UsFlag}></img></Link>
             </div>
             
             
@@ -86,7 +87,8 @@ const Sobremi = () =>{
                 <p className="p">"Soy un desarrollador front-end entusiasta y trabajador comprometidos con el aprendizaje
 y el desarrollo de soluciones creativas.<br></br> Considero la confianza y la satisfacción de mis
 superiores y colegas para ser el activo más valioso de mi carrera profesional. "</p>
-                <p className="p2"> Considero la programación como algo que realmente me apasiona y que no descubrí hasta que comencé a hacer el curso en MigraCode. Considero que programar es un trabajo duro, pero es algo que realmente disfruto, ya que me encanta resolver problemas y encontrar soluciones ingeniosas. Me hace sentir que la programación es el talento oculto único que poseo, como el dicho de que “toda persona tiene un talento oculto”. Me considero una persona trabajadora, porque tengo el compromiso de terminar los proyectos en tiempo y forma y trabajar en ellos lo mejor que pueda. Aparte de la programación, me encanta la edición de videos que es el segundo talento que poseo, en el que he creado muchos videos con varios efectos visuales.</p>
+                <p className="p2"> Considero la programación como algo que realmente me apasiona y que no descubrí hasta que comencé a aprender programación hace unos dos años. Considero que programar es un trabajo duro, pero es algo que realmente disfruto, ya que me encanta resolver problemas y encontrar soluciones ingeniosas. Me hace sentir que la programación es el talento oculto único que poseo, como el dicho de que “toda persona tiene un talento oculto”. Me considero una persona trabajadora, porque tengo el compromiso de terminar los proyectos en tiempo y forma y trabajar en ellos lo mejor que pueda. Aparte de la programación, me encanta la edición de videos que es el segundo talento que poseo, en el que he creado muchos videos con varios efectos visuales.</p>
+                <img src={Liney} width="150px"></img>
             </div>
 
             

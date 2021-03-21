@@ -147,8 +147,8 @@ const Header = () =>{
                             </div>
                        
                         <div>
-                      <a > <img className="two"src={SS2} width="10%" height="25%"></img></a> 
-                        <h3>Open Web Development</h3>
+                      <a href="https://psicologxs-de-calle.netlify.app/"> <img className="two"src={SS2} width="10%" height="25%"></img></a> 
+                        <h3>NGO</h3>
                         </div>
                     </div>
                     <div className="pro2">

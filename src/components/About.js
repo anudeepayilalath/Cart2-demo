@@ -25,6 +25,7 @@ import Pp from '../pp.png';
 import Cssp from '../cssp.gif';
 import Logo from '../logo.gif'
 import Verti from '../verti.jpg'
+import Liney from '../liney.gif';
 import {Link} from 'react-router-dom';
 
 const About = () =>{
@@ -35,7 +36,7 @@ const About = () =>{
                 <li className="navys">About</li>
                 <Link to="/"> <img src={Logo} className="logo" width="30px"></img></Link>
                <Link to="/"><li className="navys">Projects</li></Link> 
-                <Link to="/second"><img className="langchange" src={EspFlag}></img></Link>
+                <Link to="/sobremi"><img className="langchange" src={EspFlag}></img></Link>
             </div>
             
             
@@ -85,7 +86,8 @@ const About = () =>{
                 </h1>
                 <p className="p">"I am an enthusiastic and hardworking front-end developer <br></br>committed to learning and developing creative solutions. 
                 I consider the trust and satisfaction <br></br>from my superiors and colleagues to be the most valuable assets in my professional career."</p>
-                <p className="p2"> I consider programming as something I am really passionate about which I didn’t discover until I started doing the course at MigraCode. I consider programming to be a hard job, but it’s something I really enjoy as I love solving problems and finding resourceful solutions. It makes me feel like programming is the unique hidden talent I possess, like the saying that “Every person has a hidden talent”. I consider myself to be a hardworking person, because I am committed to finishing projects in a timely manner and work on them to the best of my abilities. Apart from programming, I love video editing which is the second talent I posses, in which I have created a lot of videos with various visual effects.</p>
+                <p className="p2"> I consider programming as something I am really passionate about which I didn’t discover until I started learning programming about two years ago. I consider programming to be a hard job, but it’s something I really enjoy as I love solving problems and finding resourceful solutions. It makes me feel like programming is the unique hidden talent I possess, like the saying that “Every person has a hidden talent”. I consider myself to be a hardworking person, because I am committed to finishing projects in a timely manner and work on them to the best of my abilities. Apart from programming, I love video editing which is the second talent I posses, in which I have created a lot of videos with various visual effects.</p>
+                <img src={Liney} className="liney" width="150px"></img>
             </div>
 
             
@@ -93,6 +95,7 @@ const About = () =>{
 
           
           </div>
+          
           </div>
            
            <div className="footer">
