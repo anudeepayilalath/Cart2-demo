@@ -130,11 +130,11 @@ ser el activo más valioso de mi carrera profesional. "</p>
 
 
 <div className="projects">
-                    <h1>My Projects</h1>
+                    <h1>Mis Proyectos</h1>
                     <div className="pro1">
                         <div>
                       <a href="https://anudeepayilalath.github.io/Weather-Forecast-using-API/"><img className="one"src={SS}width="10%" height="25%"></img></a> 
-                        <h3>Weather API</h3>
+                        <h3>Clima API</h3>
                             </div>
                        
                         <div>
@@ -145,7 +145,7 @@ ser el activo más valioso de mi carrera profesional. "</p>
                     <div className="pro2">
                         <div>
                          <a href="https://anudeepayilalath.github.io/TV-Series-Project/"> <img className="three" src={Verti}></img></a>
-                          <h3>TV Series</h3>
+                          <h3>Series de Televisión</h3>
                         </div>
                       
                         
