@@ -45,7 +45,7 @@ const About = () =>{
                 <div className="dropdown">
                 <li className="navys">Projects</li>
                 <div className="droppy">
-                    <p>Go To Home !!</p>
+                    <p>Go to Home !!</p>
                 </div>
                 </div>
                
