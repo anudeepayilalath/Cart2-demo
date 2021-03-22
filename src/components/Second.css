@@ -382,15 +382,13 @@ li{
 }
 
 .navbar li{
-  transition:0.4s;
-  color: rgb(212, 212, 212);
-  padding:0.2em;
-  font-family: 'Syne Mono', monospace;
-  text-decoration:  none;
+    transition:0.4s;
+    color: rgb(241, 240, 240);
+    padding:0.2em;
+    font-family: 'Syne Mono', monospace;
+    text-decoration:  none;
   
-  
-  
-}
+  }
 
 .navbar li:hover{
     border:1px solid rgb(202, 198, 198);

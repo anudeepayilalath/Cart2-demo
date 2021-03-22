@@ -385,13 +385,11 @@ li{
 
 .navbar li{
   transition:0.4s;
-  color: rgb(212, 212, 212);
+  color: rgb(241, 240, 240);
   padding:0.2em;
   font-family: 'Syne Mono', monospace;
   text-decoration:  none;
-  
-  
-  
+
 }
 
 .navbar li:hover{
