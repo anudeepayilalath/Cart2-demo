@@ -121,11 +121,20 @@ body{
     padding-left:2.5em;
     padding-right:2.5em;
     
-    
-    
 }
 
 
+.titulo2{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.ghosty{
+    margin-left:2em;
+    margin-right:2em;
+}
 
 
 
@@ -233,7 +242,7 @@ body{
 }
 
 .langchange:hover{
-    border:1.6px solid black
+    border:1.6px solid black;
 }
 
 .iconsdiv{
@@ -407,6 +416,7 @@ body{
     background-color: rgb(36, 36, 36);
 }
 
+
 .logo{
     transition:0.2s;
 }
@@ -467,6 +477,10 @@ body{
         flex-direction: column;
         align-items: center;
     }
+
+    .ghosty{
+        width:120px;
+    }
 }
 
 
@@ -514,6 +528,12 @@ body{
     
     }
 
+
+    @media only screen and (max-width:630px){
+        .ghosty{
+            width:80px;
+        }
+    }
 @media only screen and (max-width:600px){
     .navbar{
         display:none;
@@ -586,6 +606,13 @@ body{
     }
 }
 
+
+@media only screen and (max-width:525px){
+    .ghosty{
+        width:50px;
+        margin: 0;
+    }
+}
 @media only screen and (max-width:335px){
     .projects h1{
         font-size: 10px;

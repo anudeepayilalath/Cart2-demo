@@ -57,9 +57,9 @@ const Second = () =>{
             <div className="imgdiv">
             
             <div className="topimgs">
-            <img className="scary1" src={Side1}width="150px"></img>
+            <img className="scary1" src={Side1}width="120px"></img>
             <img className="giffy" src={Giffy}  ></img>
-            <img className="scary2"src={Side2} width="150px"></img>
+            <img className="scary2"src={Side2} width="120px"></img>
             </div>
             
             <div className="title">

@@ -6,7 +6,8 @@ import Reddit from '../reddit.png';
 import Instagram from '../instagram.png';
 import Twitter from '../twitter.png';
 import UsFlag from '../usflag.png';
-
+import newsi1 from '../sides1.gif';
+import newsi2 from '../sides2.gif';
 import SS from '../hori1.jpg';
 import SS2 from '../hori2.jpg';
 
@@ -61,7 +62,11 @@ const Sobremi = () =>{
 
 
             <div className="titulo">
+            <div className="titulo2">
+                <img src={newsi1} width="190px" className="ghosty"></img>
                 <img src={Mypic} className="Mypic"></img>
+                <img src={newsi2} width="190px" className="ghosty"></img>
+                </div>
             {/* <h1 className="myname"> <span className="Annu">ANUDEEP</span> AYILALATH PUTHALATH  <span className="p">
             <p>"I am an enthusiastic and hardworking front-end developer <br></br>committed to learning and developing creative solutions. 
                 I consider the trust and satisfaction <br></br>from my superiors and colleagues to be the most valuable assets in my professional career."
