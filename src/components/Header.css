@@ -140,15 +140,24 @@ body{
     padding:1em;
    
 }
-
+.topimgs{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+.topimgs img{
+    margin-right:2em;
+    margin-left:2em;
+}
 
 .giffy{
     margin-top:1em;
     box-shadow: -30px 30px 20px  rgba(0,0,0,0.4);
     transition: 0.4s;
     cursor: pointer;   
-    width:165px; 
-    
+    width:166px; 
+    border-radius:5px ;
 }
 
 .giffy:hover{
@@ -594,7 +603,17 @@ li{
 
   }
 
+.scary1{
+    transition: 0.4s;}
+.scary1:hover{
+    width:145px;
+}
 
+.scary2{
+    transition: 0.4s;}
+.scary2:hover{
+    width:165px;
+}
 /* .credits{
     color:rgb(211, 211, 211);
     text-align: right;
@@ -660,6 +679,11 @@ li{
     .navbar{
         display:none;
     }
+
+    .scary1{
+        display: none;
+    }
+    .scary2{display: none;}
     .sicons{
         display: flex;
         flex-direction: column;

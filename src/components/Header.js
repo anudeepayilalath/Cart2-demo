@@ -6,7 +6,8 @@ import Reddit from '../reddit.png';
 import Instagram from '../instagram.png';
 import Twitter from '../twitter.png';
 import EspFlag from '../spain.png';
-
+import Side1 from '../sides1.gif';
+import Side2 from '../sides2.gif';
 import SS from '../hori1.jpg';
 import SS2 from '../hori2.jpg';
 
@@ -56,7 +57,12 @@ const Header = () =>{
             
             <div className="imgdiv">
             
-                <img className="giffy" src={Giffy}  ></img>
+            <div className="topimgs">
+            <img className="scary1" src={Side1}width="150px"></img>
+            <img className="giffy" src={Giffy}  ></img>
+            <img className="scary2"src={Side2} width="150px"></img>
+            </div>
+                
             
 
             
@@ -145,7 +151,7 @@ const Header = () =>{
                 <span>E</span>
                 <span>R</span>
                 <span>E</span>
-                <span>!!</span>
+                <span> !!</span>
                 <br></br>
                 <span>😅</span>
             </h1>

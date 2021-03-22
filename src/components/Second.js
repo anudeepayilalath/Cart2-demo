@@ -13,6 +13,8 @@ import Man from '../man.gif';
 import Man2 from '../man2.gif';
 // import Giff2 from '../60203889.png';
 import Htmlp from '../htmlp.webp';
+import Side1 from '../sides1.gif';
+import Side2 from '../sides2.gif';
 import Jsp from '../jsp.gif';
 import Np from '../np.webp';
 import Rp from '../rp.webp';
@@ -54,7 +56,11 @@ const Second = () =>{
             
             <div className="imgdiv">
             
-                <img className="giffy" src={Giffy}  ></img>
+            <div className="topimgs">
+            <img className="scary1" src={Side1}width="150px"></img>
+            <img className="giffy" src={Giffy}  ></img>
+            <img className="scary2"src={Side2} width="150px"></img>
+            </div>
             
             <div className="title">
                 <img src={Mypic} className="Mypic"></img>
@@ -132,7 +138,7 @@ ser el activo más valioso de mi carrera profesional. "</p>
    <span>Q</span>
    <span>U</span>
    <span>I</span>
-   <span>!!</span>
+   <span> !!</span>
   
    <br></br>
    <span>😅</span>
