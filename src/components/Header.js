@@ -160,7 +160,7 @@ const Header = () =>{
                     <div className="pro2">
                         <div>
                          <a href="https://anudeepayilalath.github.io/TV-Series-Project/"> <img className="three" src={Verti}></img></a>
-                          <h3>TV Series</h3>
+                          <h3>TV Series API</h3>
                         </div>
                                    
                     </div>

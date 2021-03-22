@@ -147,7 +147,7 @@ ser el activo más valioso de mi carrera profesional. "</p>
                     <div className="pro2">
                         <div>
                          <a href="https://anudeepayilalath.github.io/TV-Series-Project/"> <img className="three" src={Verti}></img></a>
-                          <h3>Series de Televisión</h3>
+                          <h3>Series de Tele API</h3>
                         </div>
     
                     </div>
