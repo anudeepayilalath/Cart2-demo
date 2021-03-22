@@ -26,6 +26,8 @@ import SS from '../hori1.jpg';
 import SS2 from '../hori2.jpg';
 import Verti from '../verti.jpg';
 import Req from '../req.png';
+import Linea from '../linea.gif';
+import Lineahori from '../lineahori.gif';
 import {Link} from 'react-router-dom';
 
 
@@ -147,15 +149,21 @@ ser el activo más valioso de mi carrera profesional. "</p>
 </div>
 
 
+<div className="proheading">
+                <h1>Mis Proyectos</h1>
+                </div>
+                <div className="mainproject">
+                    <img className="linea" src={Linea} width="25px"></img>
+                <div className="projects">
+                    
+                    <img src={Lineahori} className="lineahori" width="340px"></img>
 
-<div className="projects">
-                    <h1>Mis Proyectos</h1>
                     <div className="pro2">
                         <div>
                          <a href="https://anudeepayilalath.github.io/TV-Series-Project/"> <img className="three" src={Verti}></img></a>
                           <h3>Series de Tele API</h3>
                         </div>
-    
+                                   
                     </div>
                     <div className="pro1">
                         <div>
@@ -168,15 +176,20 @@ ser el activo más valioso de mi carrera profesional. "</p>
                         <h3>ONG (Demo)</h3>
                         </div>
                     </div>
-                    
+
+                   
 
                     <div className="proreq">
                         <div>
                          <a href="http://hrup.namli.pw/login"> <img className="req" src={Req}></img></a>
-                          <h3>Para Solicitar Vacaciones</h3>
+                          <h3>HrUp Solicitar Vacaciones</h3>
                         </div> 
                     </div>
+                    <img src={Lineahori} className="lineahori" width="340px"></img>
                 </div>
+                <img src={Linea} className="linea" width="25px"></img>
+                </div>
+
 
 
             <div className="livewall">

@@ -10,13 +10,14 @@ import Side1 from '../sides1.gif';
 import Side2 from '../sides2.gif';
 import SS from '../hori1.jpg';
 import SS2 from '../hori2.jpg';
-
+import Linea from '../linea.gif';
 import Mypic from '../Untitled design (1).png';
 import Giffy from '../yy3.gif';
 import Mygif from '../source.gif';
 import Man from '../man.gif';
 import Man2 from '../man2.gif';
 import Scroll from '../scrolling.jpg';
+import Lineahori from '../lineahori.gif';
 // import Giff2 from '../60203889.png';
 import Htmlp from '../htmlp.webp';
 import Jsp from '../jsp.gif';
@@ -157,11 +158,14 @@ const Header = () =>{
             </h1>
 
         </div>
-
-
+                <div className="proheading">
+                <h1>My Projects</h1>
+                </div>
+                <div className="mainproject">
+                    <img className="linea" src={Linea} width="25px"></img>
                 <div className="projects">
-                    <h1>My Projects</h1>
                     
+                    <img src={Lineahori} className="lineahori" width="340px"></img>
 
                     <div className="pro2">
                         <div>
@@ -190,7 +194,11 @@ const Header = () =>{
                           <h3>Holiday Request Platform</h3>
                         </div> 
                     </div>
+                    <img src={Lineahori} className="lineahori" width="340px"></img>
                 </div>
+                <img src={Linea} className="linea" width="25px"></img>
+                </div>
+               
 
 
                 <div className="livewall">
