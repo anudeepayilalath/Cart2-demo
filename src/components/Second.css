@@ -79,8 +79,8 @@ body{
     background-size:cover;
     background-repeat: no-repeat;
     height:100%; */
-   
-   background-color:#100858;
+    background-color:#150541;
+    background-color:#100858;
 
 }
 
@@ -151,6 +151,7 @@ body{
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
+    margin-top:1em;
 }
 .topimgs img{
     margin-right:2em;
@@ -188,7 +189,18 @@ body{
     box-shadow: -30px -30px 20px  rgba(0,0,0,0.4);
     
 }
-
+.section1{
+    background-image:url("../bground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  margin-right:4em;
+  margin-left:4em;
+  margin-top:2em;
+  margin-bottom:2em;
+   -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
+   box-shadow: 0 0 30px rgb(0, 0, 0);
+}
 
 .iconz{
     display:flex;
@@ -259,11 +271,13 @@ body{
 }
 
 .footer{
+    background-color:rgb(23, 26, 80);
     background-color:rgb(27, 31, 88);
     color:white;
     width: 100%;
-    -webkit-box-shadow: 0 0 10px rgb(0, 0, 0);
-    box-shadow: 0 0 10px rgb(0, 0, 0);
+    -webkit-box-shadow: 0 0 15px rgb(0, 0, 0);
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    
 }
 
 .forrow{
@@ -377,6 +391,8 @@ li{
     text-decoration: none;
 }
 .navbar{
+    
+    background-color:rgb(27, 31, 88);
    
     display:flex;
     flex-direction:row;
@@ -388,14 +404,15 @@ li{
     margin-bottom:1.5em;
     margin-left:4em;
     margin-right:4em;
-    background-color:rgb(27, 31, 88);
+    border-radius: 8px;
+    
     transition:0.4s;
    text-decoration: none;
     -webkit-box-shadow: 0 0 10px rgb(0, 0, 0);
     box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 .navbar:hover{
-    background-color: rgb(136, 29, 61);
+    background-color: rgb(124, 27, 56);
     border-radius: 8px;
     -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
     box-shadow: 0 0 30px rgb(0, 0, 0);
@@ -662,7 +679,14 @@ li{
         align-items: center;
     }
 }
-
+@media only screen and (max-width:817px){
+    .title{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;    
+    }
+}
 
 @media only screen and (max-width:750px){
     
@@ -672,12 +696,7 @@ li{
         width:150px;
     }
 
-    .title{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;    
-    }
+   
 
     
     
@@ -716,7 +735,10 @@ li{
     .navbar{
         display:none;
     }
-
+.section1{
+    margin-right:0.2em;
+  margin-left:0.2em;
+}
     .scary1{
         display: none;
     }

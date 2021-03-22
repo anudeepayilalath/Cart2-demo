@@ -105,8 +105,8 @@ const Header = () =>{
                 <span>T</span>
                 <span>H</span>
                 </h1>
-                <p className="p">"I am an enthusiastic and hardworking front-end developer <br></br>committed to learning and developing creative solutions. 
-                I consider the trust and satisfaction <br></br>from my superiors and colleagues to be the most valuable assets in my professional career."</p>
+                <p className="p">"I am an enthusiastic and hardworking front-end developer committed to learning and developing creative solutions. 
+                I consider the trust and satisfaction from my superiors and colleagues to be the most valuable assets in my professional career."</p>
             </div>
 
             <img className="mygif" width=" 200px"src={Mygif}></img>
@@ -182,7 +182,7 @@ const Header = () =>{
                        
                         <div>
                       <a href="https://psicologxs-de-calle.netlify.app/"> <img className="two"src={SS2} width="10%" height="25%"></img></a> 
-                        <h3>NGO (Demo)</h3>
+                        <h3>NGO</h3>
                         </div>
                     </div>
 

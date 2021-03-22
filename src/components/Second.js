@@ -55,7 +55,7 @@ const Second = () =>{
                 <Link to="/"><img className="langchange" src={UsFlag}></img></Link>
             </div>
 
-            
+            <div className="section1">
             <div className="imgdiv">
             
             <div className="topimgs">
@@ -96,8 +96,8 @@ const Second = () =>{
                 <span>H</span>
                 </h1>
                 <p className="p">"Soy un desarrollador front-end entusiasta y trabajador
-comprometidos con el aprendizaje<br></br> y el desarrollo de soluciones creativas.
-Considero la confianza y la satisfacción de mis<br></br> superiores y colegas para
+comprometidos con el aprendizaje y el desarrollo de soluciones creativas.
+Considero la confianza y la satisfacción de mis superiores y colegas para
 ser el activo más valioso de mi carrera profesional. "</p>
             </div>
             <img className="mygif" width=" 200px"src={Mygif}></img>
@@ -118,7 +118,7 @@ ser el activo más valioso de mi carrera profesional. "</p>
             </div>
             
             </div>
-
+</div>
            
             <div className="belowpwoli">
 
@@ -173,7 +173,7 @@ ser el activo más valioso de mi carrera profesional. "</p>
                        
                         <div>
                       <a href="https://psicologxs-de-calle.netlify.app/"> <img className="two"src={SS2} width="10%" height="25%"></img></a> 
-                        <h3>ONG (Demo)</h3>
+                        <h3>ONG</h3>
                         </div>
                     </div>
 

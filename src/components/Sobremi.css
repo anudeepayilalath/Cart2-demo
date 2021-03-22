@@ -261,11 +261,13 @@ body{
 }
 
 .footer{
+    background-color:rgb(23, 26, 80);
     background-color:rgb(27, 31, 88);
     color:white;
     width: 100%;
-    -webkit-box-shadow: 0 0 10px rgb(0, 0, 0);
-    box-shadow: 0 0 10px rgb(0, 0, 0);
+    -webkit-box-shadow: 0 0 15px rgb(0, 0, 0);
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    
 }
 
 .forrow{
@@ -372,6 +374,8 @@ body{
 }
 
 .navbar{
+    
+    background-color:rgb(27, 31, 88);
    
     display:flex;
     flex-direction:row;
@@ -381,16 +385,17 @@ body{
     padding:0.3em;
     margin-top:1.5em;
     margin-bottom:1.5em;
-    margin-left:4em;
-    margin-right:4em;
-    background-color:rgb(27, 31, 88);
-    transition:0.4s;
+    margin-left:2em;
+    margin-right:2em;
+    border-radius: 8px;
     
+    transition:0.4s;
+   text-decoration: none;
     -webkit-box-shadow: 0 0 10px rgb(0, 0, 0);
     box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 .navbar:hover{
-    background-color: rgb(136, 29, 61);
+    background-color: rgb(124, 27, 56);
     border-radius: 8px;
     -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
     box-shadow: 0 0 30px rgb(0, 0, 0);
