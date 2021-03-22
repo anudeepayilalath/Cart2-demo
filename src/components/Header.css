@@ -62,9 +62,15 @@
   .fade img.top:hover {
     opacity:0;
   } */
-
-
-
+.pro1{
+    background-color:rgb(27, 31, 88);
+}
+.pro2{
+    background-color:rgb(27, 31, 88);
+}
+.proreq{
+    background-color:rgb(27, 31, 88);
+}
 
 
 body{
@@ -303,6 +309,8 @@ body{
 
 
 .belowpwoli{
+    -webkit-box-shadow: 0 0 10px rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
     background-image: url("../techmongers.gif");
     background-position: center;
     background-size: cover;
