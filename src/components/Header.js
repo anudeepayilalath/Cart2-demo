@@ -43,7 +43,9 @@ const Header = () =>{
                 </div>
                 
               <Link to="/about"> <li className="navys">About</li></Link> 
-               <Link to="/"> <img src={Logo} className="logo" width="30px"></img></Link>
+        
+             <Link to="/"> <img src={Logo} className="logo" width="30px"></img></Link>
+              
               
               <div className="dropdown">
               <Link to="/" className="linked"> <li className="navys">Projects</li></Link>
