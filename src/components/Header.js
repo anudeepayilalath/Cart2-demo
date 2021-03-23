@@ -1,7 +1,9 @@
 import React from 'react';
+import ReactAudioPlayer from 'react-audio-player';
 import './Header.css';
 import Pwoli from '../pwoli.gif';
 import Facebook from '../facebook.png';
+import Snapgif from '../hitting2.gif';
 import Reddit from '../reddit.png';
 import Instagram from '../instagram.png';
 import Twitter from '../twitter.png';
@@ -33,6 +35,7 @@ import {Link} from 'react-router-dom';
 const Header = () =>{
     return(
         <div>
+            
             <div className="navbar">
 
                 <div className="dropdown">

@@ -409,9 +409,11 @@ body{
     text-decoration:  none;
   
   }
-
+  .navbar:hover .navys{
+    text-shadow: 2px 2px 2px #000000;
+}
 .navys{
-    text-decoration:none;
+    text-decoration: none;
     cursor: pointer;
 }
 
@@ -459,6 +461,7 @@ body{
     color:rgb(245, 244, 244);
     border-radius: 200px;
     background-color: rgb(0, 151, 58);
+    
     font-family: 'Gloria Hallelujah', cursive;
     transition:0.4s;
     font-weight: 500;

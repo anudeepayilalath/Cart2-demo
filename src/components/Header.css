@@ -249,6 +249,7 @@ body{
 
 .langchange{
     width:30px; 
+    
     border: 1px solid black;
     transition:0.4s;
 }
@@ -421,6 +422,10 @@ li{
     box-shadow: 0 0 20px rgb(0, 0, 0);
 }
 
+.navbar:hover .navys{
+    text-shadow: 2px 2px 2px #000000;
+}
+
 .navbar li{
   transition:0.4s;
   color: rgb(241, 240, 240);
@@ -436,6 +441,10 @@ li{
     font-size:16.5px;
     background-color: rgb(36, 36, 36);
     color:rgb(224, 224, 224);
+}
+
+.navys{
+    text-decoration: none;
 }
 
 .logo{
@@ -649,6 +658,7 @@ li{
     color:rgb(245, 244, 244);
     border-radius: 200px;
     background-color: rgb(0, 151, 58);
+    
     font-family: 'Gloria Hallelujah', cursive;
     transition:0.4s;
     font-weight: 500;
@@ -673,6 +683,10 @@ li{
 .scary2:hover{
     width:125px;
 }
+
+
+
+
 /* .credits{
     color:rgb(211, 211, 211);
     text-align: right;
