@@ -397,8 +397,8 @@ body{
 .navbar:hover{
     background-color: rgb(124, 27, 56);
     border-radius: 8px;
-    -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
-    box-shadow: 0 0 30px rgb(0, 0, 0);
+    -webkit-box-shadow: 0 0 20px rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgb(0, 0, 0);
 }
 
 .navbar li{
