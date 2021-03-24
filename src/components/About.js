@@ -33,14 +33,14 @@ const About = () =>{
     return(
         <div>
             <div className="navbar">
-             <Link to="/">  <li className="navys">Home</li></Link> 
+             <Link to="/"  style={{ textDecoration: 'none' }}>  <li className="navys">Home</li></Link> 
               <div className="dropdown">
                 <li className="navys">About</li>
                 <div className="droppy">
                     <p>You are already here !!</p>
                 </div>    
               </div>  
-                <Link to="/"> <img src={Logo} className="logo" width="30px"></img></Link>
+                <Link to="/"  style={{ textDecoration: 'none' }}> <img src={Logo} className="logo" width="30px"></img></Link>
 
 
                 <div className="dropdown">
@@ -50,7 +50,7 @@ const About = () =>{
                 </div>
                 </div>
                
-                <Link to="/sobremi"><img className="langchange" src={EspFlag}></img></Link>
+                <Link to="/sobremi"  style={{ textDecoration: 'none' }}><img className="langchange" src={EspFlag}></img></Link>
             </div>
             
             

@@ -33,7 +33,7 @@ const Sobremi = () =>{
     return(
         <div>
             <div className="navbar">
-             <Link to="/second">  <li className="navys">Inicia</li></Link> 
+             <Link to="/second"  style={{ textDecoration: 'none' }}>  <li className="navys">Inicia</li></Link> 
               <div className="dropdown">
               <li className="navys">SobreMi</li>
               <div className="droppy">

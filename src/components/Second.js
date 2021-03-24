@@ -43,7 +43,7 @@ const Second = () =>{
                </div>
                </div>
                 
-               <Link to="/sobremi"> <li className="navys">SobreMí</li></Link>
+               <Link to="/sobremi"  style={{ textDecoration: 'none' }}> <li className="navys">SobreMí</li></Link>
                 <img src={Logo} className="logo" width="30px"></img>
                <div className="dropdown">
                <li className="navys">Proyectos</li>

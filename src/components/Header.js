@@ -45,13 +45,13 @@ const Header = () =>{
                 </div>
                 </div>
                 
-              <Link to="/about"> <li className="navys">About</li></Link> 
+              <Link to="/about"  style={{ textDecoration: 'none' }}> <li className="navys">About</li></Link> 
         
-             <Link to="/"> <img src={Logo} className="logo" width="30px"></img></Link>
+             <Link to="/" > <img src={Logo} className="logo" width="30px"></img></Link>
               
               
               <div className="dropdown">
-              <Link to="/" className="linked"> <li className="navys">Projects</li></Link>
+               <li className="navys">Projects</li>
               <div className="droppy">
                   <p>Scroll Down ↓ Don't be lazy </p>
               </div>
