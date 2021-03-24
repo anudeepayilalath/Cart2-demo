@@ -570,7 +570,7 @@ li{
 
 .one:hover{
     
-
+    opacity:0.84;
     -ms-transform: scale(0.8); /* IE 9 */
     -webkit-transform: scale(0.8); /* Safari 3-8 */
     transform: scale(0.8); 
@@ -582,7 +582,7 @@ li{
 
 .two:hover{
     
-
+    opacity:0.84;
     -ms-transform: scale(0.9); /* IE 9 */
     -webkit-transform: scale(0.9); /* Safari 3-8 */
     transform: scale(0.9); 
