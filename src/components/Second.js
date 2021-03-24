@@ -173,7 +173,7 @@ ser el activo más valioso de mi carrera profesional. "</p>
                        
                         <div>
                       <a href="https://psicologxs-de-calle.netlify.app/"> <img className="two"src={SS2} width="10%" height="25%"></img></a> 
-                        <h3>ONG</h3>
+                        <h3>O N G</h3>
                         </div>
                     </div>
 

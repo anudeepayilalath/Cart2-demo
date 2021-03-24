@@ -139,7 +139,7 @@ const Header = () =>{
 
              <h1>
                
-                <span> N</span>
+                <span>N</span>
                 <span>O</span>
                 <span>T</span>
                 <span>H</span>
@@ -149,7 +149,6 @@ const Header = () =>{
                 <br></br>
                 <span> T</span>
                 <span>O</span>
-                
                 <span> S</span>
                 <span>E</span>
                 <span>E</span>
@@ -157,11 +156,13 @@ const Header = () =>{
                 <span>E</span>
                 <span>R</span>
                 <span>E</span>
-                <span> !!</span>
+                
                 <br></br>
                 <span>😅</span>
             </h1>
 
+
+        
         </div>
                 <div className="proheading">
                 <h1>My Projects</h1>
@@ -187,7 +188,7 @@ const Header = () =>{
                        
                         <div>
                       <a href="https://psicologxs-de-calle.netlify.app/"> <img className="two"src={SS2} width="10%" height="25%"></img></a> 
-                        <h3>NGO</h3>
+                        <h3>N G O</h3>
                         </div>
                     </div>
 
@@ -196,7 +197,7 @@ const Header = () =>{
                     <div className="proreq">
                         <div>
                          <a href="http://hrup.namli.pw/login"> <img className="req" src={Req}></img></a>
-                          <h3>Holiday Request Platform</h3>
+                          <h3>HrUp Request Holidays</h3>
                         </div> 
                     </div>
                     <img src={Lineahori} className="lineahori" width="340px"></img>
