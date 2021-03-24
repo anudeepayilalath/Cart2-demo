@@ -143,7 +143,7 @@ ser el activo más valioso de mi carrera profesional. "</p>
    <span> !!</span>
   
    <br></br>
-   <span>😅</span>
+   <span>😅🔧</span>
 </h1>
 
 </div>

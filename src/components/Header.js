@@ -156,9 +156,9 @@ const Header = () =>{
                 <span>E</span>
                 <span>R</span>
                 <span>E</span>
-                
+                <span> !!</span>
                 <br></br>
-                <span>😅</span>
+                <span>😅🔧</span>
             </h1>
 
 
