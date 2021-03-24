@@ -34,7 +34,7 @@
 }
 
 .bottompic:hover{
-    width:120px;
+    -webkit-transform:scale(1.2);
    
 }
 
@@ -195,10 +195,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-  margin-right:4em;
-  margin-left:4em;
-  margin-top:2em;
-  margin-bottom:2em;
+    margin-right:4em;
+    margin-left:4em;
+    margin-top:2em;
+    margin-bottom:2em;
    -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
    box-shadow: 0 0 30px rgb(0, 0, 0);
 }

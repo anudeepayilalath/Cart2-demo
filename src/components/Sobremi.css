@@ -31,7 +31,7 @@
 }
 
 .bottompic:hover{
-    width:120px;
+    -webkit-transform:scale(2.5);
    
 }
 
