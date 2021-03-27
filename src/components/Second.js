@@ -11,6 +11,8 @@ import Giffy from '../yy3.gif';
 import Mygif from '../source.gif';
 import Man from '../man.gif';
 import Man2 from '../man2.gif';
+import Climate from '../climate.jpg';
+import { HashLink, NavHashLink } from 'react-router-hash-link';
 // import Giff2 from '../60203889.png';
 import Htmlp from '../htmlp.webp';
 import Side1 from '../sides1.gif';
@@ -36,23 +38,21 @@ const Second = () =>{
         <div>
 
             <div className="navbar">
+            <img src={Logo} className="logo" width="30px"></img>
                <div className="dropdown">
                <li className="navys">Inicio</li>
                <div className="droppy">
                    <p>Ya estas aqui !!</p>
                </div>
                </div>
-                
+              <HashLink smooth to='/second/#belowpwoli' style={{textDecoration:"none"}}><li className="navys">Blog</li></HashLink>  
                <Link to="/sobremi"  style={{ textDecoration: 'none' }}> <li className="navys">SobreMí</li></Link>
-                <img src={Logo} className="logo" width="30px"></img>
-               <div className="dropdown">
-               <li className="navys">Proyectos</li>
-               <div className="droppy">
-                   <p>Desplazarse hacia abajo ↓ No seas perezoso</p>
-               </div>
-               </div>
+               
+            <HashLink smooth to='/second/#projects' style={{textDecoration:"none"}}><li className="navys">Proyectos</li></HashLink>
+               
+               
+               <Link to="/"><img className="langchange" src={UsFlag}></img></Link>
               
-                <Link to="/"><img className="langchange" src={UsFlag}></img></Link>
             </div>
 
             <div className="section1">
@@ -119,37 +119,12 @@ ser el activo más valioso de mi carrera profesional. "</p>
             
             </div>
 </div>
-           
-            <div className="belowpwoli">
 
-<h1>
-  
-   <span> N</span>
-   <span>A</span>
-   <span>D</span>
-   <span>A</span>
-   <span> Q</span>
-   <span>U</span>
-   <span>E</span>
-   <br></br>
-   <span> V</span>
-   <span>E</span>
-   <span>R</span>
-   
-   <span> A</span>
-   <span>Q</span>
-   <span>U</span>
-   <span>I</span>
-   <span> !!</span>
-  
-   <br></br>
-   <span>🔧😅</span>
-</h1>
+<div className="livewall">
+                    <img className="mario" src={Scroll}></img>
+                </div>
 
-</div>
-
-
-<div className="proheading">
+                <div className="proheading" id="projects">
                 <h1>Mis Proyectos</h1>
                 </div>
                 <div className="mainproject">
@@ -190,11 +165,52 @@ ser el activo más valioso de mi carrera profesional. "</p>
                 <img src={Linea} className="linea" width="25px"></img>
                 </div>
 
+           
+<div  className="belowpwoli">
+            <div id="belowpwoli" className="belowh1">
+            <h1>
+               
+               <span>B</span>
+               <span>l</span>
+               <span>o</span>
+               <span>g</span>
+              
+               
+              
+           </h1>
+            </div>
+           
 
-
-            <div className="livewall">
-                    <img className="mario" src={Scroll}></img>
+           <HashLink smooth to="/article-en/#navbar" style={{textDecoration:"none"}}> <div className="card1">
+                <div>
+                <img src={Climate} width="310px"></img>
                 </div>
+               
+                <div className="cardtitle">
+                 <h3>Why We Should Take Climate Change Seriously</h3>
+                 
+                 <div className="description">
+                     <p>" Climate change is the greatest threat to our existence in our short history
+on this planet. Nobody’s going to buy their way out of its effects. " </p>
+                 </div>
+                 <div style={{textAlign:"end"}}>
+                     <p className="datep" style={{fontSize:"12px"}}>March, 2021</p>
+                 </div>
+                </div>
+
+                <div></div>
+               
+            </div>
+            </HashLink>
+        
+        </div>
+
+
+
+
+
+
+            
            
            <div className="footer">
                <img src={Pwoli} className="pwoli" width="120px"></img>

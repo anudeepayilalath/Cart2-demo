@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-import Sobremi from './components/Sobremi'
-import About from './components/About'
+import Article1 from './components/Article1';
+import Sobremi from './components/Sobremi';
+import About from './components/About';
 import Second from './components/Second';
 // import Navbar from './components/navbar';
 import Header from './components/Header';
@@ -28,7 +29,11 @@ function App() {
         </Route>
 
         <Route path="/sobremi">
-          <Sobremi/>
+          <Sobremi/> 
+        </Route>
+
+        <Route path="/article-en">
+          <Article1/>
         </Route>
       
       </Switch>

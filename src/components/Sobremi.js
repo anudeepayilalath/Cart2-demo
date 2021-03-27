@@ -10,7 +10,7 @@ import newsi1 from '../sides1.gif';
 import newsi2 from '../sides2.gif';
 import SS from '../hori1.jpg';
 import SS2 from '../hori2.jpg';
-
+import { HashLink, NavHashLink } from 'react-router-hash-link';
 import Mypic from '../Untitled design (1).png';
 import Giffy from '../yy3.gif';
 import Mygif from '../source.gif';
@@ -33,7 +33,10 @@ const Sobremi = () =>{
     return(
         <div>
             <div className="navbar">
+            <Link to="/second"> <img src={Logo} className="logo" width="30px"></img></Link>
              <Link to="/second"  style={{ textDecoration: 'none' }}>  <li className="navys">Inicia</li></Link> 
+           <HashLink smooth to='/second/#belowpwoli' style={{textDecoration:"none"}}><li className="navys">Blog</li></HashLink>  
+             
               <div className="dropdown">
               <li className="navys">SobreMi</li>
               <div className="droppy">
@@ -41,13 +44,12 @@ const Sobremi = () =>{
               </div>
               </div>
                
-                <Link to="/second"> <img src={Logo} className="logo" width="30px"></img></Link>
-               <div className="dropdown">
-               <li className="navys">Proyectos</li> 
-               <div className="droppy">
-                   <p>Ir a Inicio !!</p>
-               </div>
-               </div>
+               
+               <HashLink smooth to='/second/#projects' style={{textDecoration:"none"}}>
+                <li className="navys">Proyectos</li> 
+               </HashLink>
+               
+               
               
                 <Link to="/about"><img className="langchange" src={UsFlag}></img></Link>
             </div>

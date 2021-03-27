@@ -248,7 +248,7 @@ body{
 }
 
 .langchange{
-    width:30px; 
+    width:26px; 
     
     border: 1px solid black;
     transition:0.4s;
@@ -326,29 +326,37 @@ body{
 
 
 .belowpwoli{
-    -webkit-box-shadow: 0 0 10px rgb(0, 0, 0);
-    box-shadow: 0 0 10px rgb(0, 0, 0);
-    background-image: url("../techmongers.gif");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    
+    
+ 
     width: 100%;
-    height: 100vh;
+    padding-bottom:2em;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
     cursor:context-menu;
   
 }
 
-.belowpwoli h1{
-    font-size: 80px;
+.belowh1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    cursor:context-menu;
+    
+}
+
+.belowh1 h1{
+    font-size: 30px;
     color:rgb(106, 0, 177);
     text-shadow: 0 1px 0 rgb(255, 255, 255), 0 2px 0 rgb(255, 255, 255), 0 3px 0 rgb(255, 255, 255), 0 4px 0 rgb(255, 255, 255),
     0 5px 0 rgb(255, 255, 255), 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
     0 9px 0 transparent, 0 10px 10px rgb(0, 0, 0);
     font-family: "Luckiest Guy", cursive;
     transition:0.4s;
+    margin:1em;
+
 
 }
 
@@ -359,7 +367,7 @@ body{
 
 
 .belowpwoli h1 span:hover{
-    font-size: 90px;
+    width:60px;
 }
 
 
@@ -402,6 +410,7 @@ li{
     flex-direction:row;
     justify-content:space-around;
     align-items: center;
+    justify-items: center;
     list-style: none;
     padding:0.3em;
     margin-top:1.5em;
@@ -411,7 +420,7 @@ li{
     border-radius: 8px;
     
     transition:0.4s;
-   text-decoration: none;
+    text-decoration: none;
     -webkit-box-shadow: 0 0 10px rgb(0, 0, 0);
     box-shadow: 0 0 10px rgb(0, 0, 0);
 }
@@ -454,7 +463,6 @@ li{
 
 .logo:hover{
     -webkit-transform:scale(2.5);
-    opacity: 0.82;
 }
 
 .lineahori{
@@ -685,7 +693,52 @@ li{
     width:125px;
 }
 
+.card1{
+    -webkit-box-shadow: 0 0 15px rgb(0, 0, 0);
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    background-color: rgb(241, 241, 247);
+    border-radius:5px;
+    
+    margin-top:1.5em;
+    margin-bottom:1.5em;
+    margin-right:4em;
+    margin-left:4em;
+    width:310px;
+    display: flex;
+    flex-direction: column;
+    
+}
 
+.cardtitle{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin:1em;
+    text-shadow: 2px 2px 2px #e7e4e4;
+    
+}
+
+
+
+.cardtitle h3{
+   margin-bottom:10px;
+    font-weight: bold;
+    color:rgb(51, 50, 50);
+}
+
+.cardtitle p{
+    font-size:14px;
+}
+
+.datep{
+    display:inline;
+    font-weight:500;
+    color:rgb(71, 71, 71);
+    border-radius:3px;
+    padding-right:1px;
+    padding-left:1px;
+    text-align:end;
+}
 
 
 /* .credits{
@@ -810,7 +863,7 @@ li{
         font-size:25px;
     }
    
-    .belowpwoli h1{
+    .belowh1 h1{
         font-size: 60px;
     }
 
@@ -849,6 +902,18 @@ li{
     .lineahori{
         width:160px;
     }
+
+    .card1{
+        width:200px;
+        margin:0;
+        padding:0;
+        justify-content: center;
+    }
+
+    .card1 img{
+        width:200px;
+    }
+
 }
 
 

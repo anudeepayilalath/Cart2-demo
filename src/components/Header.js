@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactAudioPlayer from 'react-audio-player';
 import './Header.css';
+import { HashLink, NavHashLink } from 'react-router-hash-link';
 import Pwoli from '../pwoli.gif';
 import Facebook from '../facebook.png';
 import Snapgif from '../hitting2.gif';
 import Reddit from '../reddit.png';
+import Climate from '../climate.jpg';
 import Instagram from '../instagram.png';
 import Twitter from '../twitter.png';
 import EspFlag from '../spain.png';
@@ -36,8 +38,8 @@ const Header = () =>{
     return(
         <div>
             
-            <div className="navbar">
-
+            <div id="navbar" className="navbar">
+            <Link to="/" > <img src={Logo} className="logo" width="30px"></img></Link>
                 <div className="dropdown">
                 <li className="navys">Home</li>
                 <div className="droppy">
@@ -45,19 +47,15 @@ const Header = () =>{
                 </div>
                 </div>
                 
+             <HashLink style={{textDecoration:"none"}} smooth to='/#belowpwoli'> <li className="navys">Blog</li></HashLink>  
+
               <Link to="/about"  style={{ textDecoration: 'none' }}> <li className="navys">About</li></Link> 
         
-             <Link to="/" > <img src={Logo} className="logo" width="30px"></img></Link>
+             
+             <HashLink smooth to='/#projects' style={{ textDecoration: 'none' }}><li className="navys">Projects</li></HashLink>  
               
               
-              <div className="dropdown">
-               <li className="navys">Projects</li>
-              <div className="droppy">
-                  <p>Scroll Down ↓ Don't be lazy </p>
-              </div>
-              </div>
-              
-                <Link to="/second"><img className="langchange" src={EspFlag}></img></Link>
+                <Link to="/second" ><img className="langchange" src={EspFlag}></img></Link>
             </div>
             <div className="section1">
             
@@ -135,36 +133,10 @@ const Header = () =>{
             </div>
 
             
-            <div className="belowpwoli">
-
-             <h1>
-               
-                <span>N</span>
-                <span>O</span>
-                <span>T</span>
-                <span>H</span>
-                <span>I</span>
-                <span>N</span>
-                <span>G</span>
-                <br></br>
-                <span> T</span>
-                <span>O</span>
-                <span> S</span>
-                <span>E</span>
-                <span>E</span>
-                <span> H</span>
-                <span>E</span>
-                <span>R</span>
-                <span>E</span>
-                <span> !!</span>
-                <br></br>
-                <span>🔧😅</span>
-            </h1>
-
-
-        
-        </div>
-                <div className="proheading">
+            <div className="livewall">
+                    <img className="mario" src={Scroll}></img>
+                </div> 
+                <div className="proheading" id="projects">
                 <h1>My Projects</h1>
                 </div>
                 <div className="mainproject">
@@ -205,11 +177,46 @@ const Header = () =>{
                 <img src={Linea} className="linea" width="25px"></img>
                 </div>
                
+                <div  className="belowpwoli">
+            <div id="belowpwoli" className="belowh1">
+            <h1>
+               
+               <span>B</span>
+               <span>l</span>
+               <span>o</span>
+               <span>g</span>
+              
+               
+              
+           </h1>
+            </div>
+           
+<HashLink smooth to='/article-en/#navbar' style={{textDecoration:"none"}}>
+            <div  className="card1">
+                <div>
+                <img src={Climate} width="310px"></img>
+                </div>
+               
+                <div className="cardtitle">
+                 <h3>Why We Should Take Climate Change Seriously</h3>
+                 
+                 <div className="description">
+                     <p>" Climate change is the greatest threat to our existence in our short history
+on this planet. Nobody’s going to buy their way out of its effects."</p>
+                 </div>
+                 <div style={{textAlign:"end"}}>
+                     <p className="datep" style={{fontSize:"12px"}}>March, 2021</p>
+                 </div>
+                </div>
 
+                <div></div>
+               
+            </div>
+            </HashLink>
+        
+        </div>
 
-                <div className="livewall">
-                    <img className="mario" src={Scroll}></img>
-                </div> 
+                
 
               
             
@@ -229,7 +236,7 @@ const Header = () =>{
                    
                </div>
                <div>
-                   <img src={Mypic} className="bottompic"width="100px"></img>
+                 <HashLink smooth to='/#navbar'> <img src={Mypic} className="bottompic"width="100px"></img></HashLink> 
                    <p className="createdby">Created by Anudeep Ayilalath Puthalath</p>
                </div>
            </div>
