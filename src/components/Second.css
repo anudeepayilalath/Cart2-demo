@@ -271,7 +271,8 @@ body{
 .mario{
     width:50%;
     margin:5em;
-    margin-top:8em;
+    margin-top:4.5em;
+    margin-bottom:4em;
     box-shadow: -30px 30px 20px rgba(0,0,0,0.4);
    
 }
@@ -478,7 +479,7 @@ li{
     margin-right:1em;
 }
 .proheading{
-    margin-top:2.5em;
+    margin-top:2em;
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -506,6 +507,7 @@ li{
         padding-left:0.5em;
         padding-right:0.5em;
         margin:2em;
+        margin-bottom:1.5em;
         cursor:context-menu;
         font-family: 'Syne Mono', monospace;
         font-weight: 200;
