@@ -35,9 +35,9 @@ import {Link} from 'react-router-dom';
 
 const Second = () =>{
     return(
-        <div>
+        <div >
 
-            <div className="navbar">
+            <div className="navbar" id="mainbody">
             <img src={Logo} className="logo" width="30px"></img>
                <div className="dropdown">
                <li className="navys">Inicio</li>
@@ -204,7 +204,7 @@ on this planet. Nobody’s going to buy their way out of its effects. " </p>
             
             
             <div className="moreblogs2">
-                <p>Próximamente...</p>
+                <p>Muy pronto...</p>
             </div>
             </div>
             </div>
@@ -233,7 +233,7 @@ on this planet. Nobody’s going to buy their way out of its effects. " </p>
                    
                </div>
                <div>
-                   <img src={Mypic} className="bottompic"width="100px"></img>
+                  <HashLink smooth to='/second/#mainbody' style={{textDecoration:"none"}}><img src={Mypic} className="bottompic"width="100px"></img></HashLink> 
                    <p className="createdby">Creado Por Anudeep Ayilalath Puthalath</p>
                </div>
            </div>
