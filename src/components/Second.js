@@ -45,12 +45,9 @@ const Second = () =>{
                    <p>Ya estas aqui !!</p>
                </div>
                </div>
-              <HashLink smooth to='/second/#belowpwoli' style={{textDecoration:"none"}}><li className="navys">Blog</li></HashLink>  
+              <HashLink smooth to='/second/#belowpwoli' style={{textDecoration:"none"}}><li className="navys">Blog</li></HashLink> 
+              <HashLink smooth to='/second/#projects' style={{textDecoration:"none"}}><li className="navys">Proyectos</li></HashLink> 
                <Link to="/sobremi"  style={{ textDecoration: 'none' }}> <li className="navys">SobreMí</li></Link>
-               
-            <HashLink smooth to='/second/#projects' style={{textDecoration:"none"}}><li className="navys">Proyectos</li></HashLink>
-               
-               
                <Link to="/"><img className="langchange" src={UsFlag}></img></Link>
               
             </div>
@@ -180,7 +177,7 @@ ser el activo más valioso de mi carrera profesional. "</p>
            </h1>
             </div>
            
-
+        <div className="cardcollection">
            <HashLink smooth to="/article-en/#navbar" style={{textDecoration:"none"}}> <div className="card1">
                 <div>
                 <img src={Climate} width="310px"></img>
@@ -202,6 +199,15 @@ on this planet. Nobody’s going to buy their way out of its effects. " </p>
                
             </div>
             </HashLink>
+
+            <div className="more">
+            
+            
+            <div className="moreblogs2">
+                <p>Próximamente...</p>
+            </div>
+            </div>
+            </div>
         
         </div>
 

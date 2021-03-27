@@ -37,15 +37,15 @@ const About = () =>{
              <Link to="/"  style={{ textDecoration: 'none' }}>  <li className="navys">Home</li></Link> 
              <HashLink smooth to="/#belowpwoli" style={{textDecoration:"none"}}><li className="navys">Blog</li></HashLink>
              
-              <div className="dropdown">
+              
+               
+            <HashLink smooth to='/#projects' style={{textDecoration:"none"}}><li className="navys">Projects</li></HashLink>
+            <div className="dropdown">
                 <li className="navys">About</li>
                 <div className="droppy">
                     <p>You are already here !!</p>
                 </div>    
-              </div>  
-               
-                    <HashLink smooth to='/#projects' style={{textDecoration:"none"}}><li className="navys">Projects</li></HashLink>
-                
+            </div> 
                
                 <Link to="/sobremi"  style={{ textDecoration: 'none' }}><img className="langchange" src={EspFlag}></img></Link>
             </div>

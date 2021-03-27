@@ -37,20 +37,16 @@ const Sobremi = () =>{
              <Link to="/second"  style={{ textDecoration: 'none' }}>  <li className="navys">Inicia</li></Link> 
            <HashLink smooth to='/second/#belowpwoli' style={{textDecoration:"none"}}><li className="navys">Blog</li></HashLink>  
              
-              <div className="dropdown">
+               <HashLink smooth to='/second/#projects' style={{textDecoration:"none"}}>
+                <li className="navys">Proyectos</li> 
+               </HashLink>
+               <div className="dropdown">
               <li className="navys">SobreMi</li>
               <div className="droppy">
                   <p>Ya estas aqui !!</p>
               </div>
               </div>
                
-               
-               <HashLink smooth to='/second/#projects' style={{textDecoration:"none"}}>
-                <li className="navys">Proyectos</li> 
-               </HashLink>
-               
-               
-              
                 <Link to="/about"><img className="langchange" src={UsFlag}></img></Link>
             </div>
             

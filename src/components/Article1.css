@@ -357,15 +357,6 @@ body{
 
 }
 
-.belowpwoli h1 span{
-    transition:0.4s;
-    
-}
-
-
-.belowpwoli h1 span:hover{
-    color:cornflowerblue;
-}
 
 
 .Annu {
@@ -791,7 +782,7 @@ li{
     font-size: 38px;
     margin-bottom:0.5em;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:rgb(43, 155, 230);
+    color:rgb(255, 255, 255);
 }
 
 #headingandpara :nth-child(2){
@@ -1050,9 +1041,7 @@ li{
         color:rgb(204, 204, 204);
     }
 
-    .belowpwoli h1 span:hover{
-        font-size: 70px;
-    }
+  
 
     .pro1 img{
        
@@ -1153,6 +1142,9 @@ li{
         align-items: center;
     }
 }
+
+
+
 
 @media only screen and (max-width:308px){
 

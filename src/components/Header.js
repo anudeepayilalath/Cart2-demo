@@ -49,11 +49,8 @@ const Header = () =>{
                 
              <HashLink style={{textDecoration:"none"}} smooth to='/#belowpwoli'> <li className="navys">Blog</li></HashLink>  
 
-              <Link to="/about"  style={{ textDecoration: 'none' }}> <li className="navys">About</li></Link> 
-        
-             
              <HashLink smooth to='/#projects' style={{ textDecoration: 'none' }}><li className="navys">Projects</li></HashLink>  
-              
+             <Link to="/about"  style={{ textDecoration: 'none' }}> <li className="navys">About</li></Link> 
               
                 <Link to="/second" ><img className="langchange" src={EspFlag}></img></Link>
             </div>
@@ -181,17 +178,16 @@ const Header = () =>{
             <div id="belowpwoli" className="belowh1">
             <h1>
                
-               <span>B</span>
-               <span>l</span>
-               <span>o</span>
-               <span>g</span>
-              
+               <span> B</span>
+               <span> L</span>
+               <span> O</span>
+               <span> G</span>
                
               
            </h1>
             </div>
-           
-<HashLink smooth to='/article-en/#navbar' style={{textDecoration:"none"}}>
+           <div className="cardcollection"> 
+           <HashLink smooth to='/article-en/#navbar' style={{textDecoration:"none"}}>
             <div  className="card1">
                 <div>
                 <img src={Climate} width="310px"></img>
@@ -212,7 +208,17 @@ on this planet. Nobody’s going to buy their way out of its effects."</p>
                 <div></div>
                
             </div>
-            </HashLink>
+            </HashLink>   
+            <div className="more">
+            
+            
+            <div className="moreblogs2">
+                <p>Coming soon..</p>
+            </div>
+            </div>
+             
+           </div>
+
         
         </div>
 

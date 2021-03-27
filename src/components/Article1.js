@@ -11,6 +11,7 @@ import Instagram from '../instagram.png';
 import Twitter from '../twitter.png';
 import Mypic from '../Untitled design (1).png';
 import Curvyline from '../curvyline.png';
+import Noname from '../unnamed.jpg';
 import { HashLink } from 'react-router-hash-link';
 
 
@@ -41,7 +42,7 @@ const Article1 = () =>{
             <div className="blogpost">
                 <div id="headingandimg">
                     <div>
-                     <img src="https://lh3.googleusercontent.com/proxy/yEO0WEWRssfEpB7gspPT9hgZsvtTmeeNvoqI9Mh5WV2KAqksJqHLpglEidCSdf9TfGgUPxgEzFmhE6hBVdMI-DB45dUCbk_RAjpRcPtzooP6ZwHo8-TAuVyxbZBTt0noPS6jB22y0av9oJFj3Zi7YGvB7rb1vXNU7uQR5opN-A" width="450px"></img>
+                     <img src={Noname} width="450px"></img>
                      <p style={{fontSize:"10px"}}>Image from Goolge Images</p>
                      </div>
                     <p>Published on March, 2021</p>
