@@ -390,6 +390,7 @@ body{
 .navys{
     text-decoration: none;
     cursor: pointer;
+    outline:none;
 }
 
 .navbar li:hover{

@@ -354,26 +354,33 @@ body{
 }
 
 .belowh1 h1{
-    font-size: 30px;
-    color:rgb(126, 40, 184);
+    -webkit-box-shadow: 0 0 20px rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    font-size: 35px;
+    color:rgb(72, 7, 116);
     text-shadow: 0 1px 0 rgb(255, 255, 255), 0 2px 0 rgb(255, 255, 255), 0 3px 0 rgb(255, 255, 255), 0 4px 0 rgb(255, 255, 255),
     0 5px 0 rgb(255, 255, 255), 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
     0 9px 0 transparent, 0 10px 10px rgb(0, 0, 0);
     font-family: "Luckiest Guy", cursive;
     transition:0.4s;
     margin:1em;
-
+    padding-right:15px;
+    border-radius:10px;
+    padding-left:15px;
+    padding-bottom:9px;
+    background-color:lightseagreen;
 
 }
 
-.belowh1 h1 span{
+.belowh1 span{
     transition:0.4s;
     
 }
 
 
 .belowh1 span:hover{
-    width:60px;
+    color:red;
+    font-size:40px;
 }
 
 
@@ -458,6 +465,7 @@ li{
 }
 
 .navys{
+    outline:none;
     text-decoration: none;
 }
 
@@ -702,9 +710,9 @@ li{
 }
 
 .card1{
-    -webkit-box-shadow: 0 0 15px rgb(0, 0, 0);
-    box-shadow: 0 0 15px rgb(0, 0, 0);
-    background-color: rgb(0, 0, 0);
+    -webkit-box-shadow: 0 0 5px rgb(0, 0, 0);
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    background-color: rgb(27, 25, 25);
     border-radius:8px;
     color:white;
     margin-top:1.5em;
@@ -718,8 +726,8 @@ li{
 }
 
 .card1:hover{
-    -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
-    box-shadow: 0 0 30px rgb(0, 0, 0);
+    -webkit-box-shadow: 0 0 20px rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgb(0, 0, 0);
     background-color: rgb(27, 25, 25);
 }
 

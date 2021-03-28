@@ -442,6 +442,7 @@ li{
 
 .navys{
     text-decoration: none;
+    outline:none;
 }
 
 .logo{

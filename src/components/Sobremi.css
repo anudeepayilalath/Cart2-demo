@@ -381,6 +381,7 @@ body{
     text-shadow: 2px 2px 2px #000000;
 }
 .navys{
+    outline:none;
     text-decoration: none;
     cursor: pointer;
 }
