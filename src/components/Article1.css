@@ -248,14 +248,10 @@ body{
 
 .langchange{
     width:26px; 
-    
-    border: 1px solid black;
     transition:0.4s;
+    border:1px solid black;
 }
 
-.langchange:hover{
-    border:1.2px solid black
-}
 
 .iconsdiv{
     display: flex;

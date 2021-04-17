@@ -237,13 +237,8 @@ body{
 
 .langchange{
     width:30px; 
-
-    border: 1px solid black;
-    transition:0.4s;
-}
-
-.langchange:hover{
-    border:1.6px solid black;
+   transition:0.4s;
+   border:1px solid black;
 }
 
 .iconsdiv{
