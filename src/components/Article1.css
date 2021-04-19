@@ -166,9 +166,7 @@ body{
     border-radius:5px ;
 }
 
-.giffy:hover{
-    box-shadow:none;
-}
+
 
 .mygif{
     width:210px;
@@ -296,17 +294,30 @@ body{
 
 .sicons img{
     margin:2em;
-    box-shadow: -30px 30px 20px rgba(0,0,0,0.4);
     transition:0.4s;
 }
 
 .sicons img:hover{
     width:40px;
+    box-shadow: none;
 }
 
 .sicons p{
     text-shadow: 2px 2px 2px #000000;
 }
+
+.sicons img{
+    animation: rotation 4s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(359deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
 
 .pwoli{
     
@@ -447,6 +458,7 @@ li{
 }
 
 .logo:hover{
+    cursor:none;
     -webkit-transform:scale(2.5);
 }
 
@@ -500,14 +512,7 @@ li{
     }
 
 
-    .proreq{
-        display: flex;
-        flex-direction: row;
-        -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
-        box-shadow: 0 0 30px rgb(0, 0, 0);
-        transition:0.4s;
-    }
-
+    
     .proreq img{
         width:520px;
         height:220px;
@@ -593,12 +598,7 @@ li{
     opacity:0.84;
 }
 
-.req:hover{
-    -ms-transform: scale(0.9); /* IE 9 */
-    -webkit-transform: scale(0.9); /* Safari 3-8 */
-    transform: scale(0.9);
-   opacity: 0.84;
-}
+
 
 .pro1 h3{
    

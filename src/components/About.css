@@ -168,9 +168,6 @@ body{
     
 }
 
-.giffy:hover{
-    box-shadow:none;
-}
 
 .mygif{
     width:210px;
@@ -282,15 +279,32 @@ body{
     justify-items: space-around;
 }
 
+
+
 .sicons img{
     margin:2em;
-    box-shadow: -30px 30px 20px rgba(0,0,0,0.4);
+   
     transition:0.4s;
 }
 
 .sicons img:hover{
     width:40px;
+    box-shadow: none;
 }
+
+.sicons img{
+    animation: rotation 4s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(359deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+
 
 .sicons p{
     text-shadow: 2px 2px 2px #000000;
@@ -401,6 +415,7 @@ body{
 }
 
 .logo:hover{
+    cursor:none;
     -webkit-transform:scale(2.5);
 
 }

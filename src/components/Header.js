@@ -189,7 +189,7 @@ const Header = () =>{
            <div className="cardcollection"> 
            <HashLink smooth to='/article-en/#navbar' style={{textDecoration:"none"}}>
             <div  className="card1">
-                <div>
+                <div className="climatediv">
                 <img src={Climate} width="310px"></img>
                 </div>
                
